@@ -26,7 +26,7 @@ nav{
 }
 
 ul{
-    margin-top: 5%;
+    margin-top: 7%;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -53,14 +53,19 @@ a:hover{
     text-decoration: 2px underline #5297f7;
 }
 
-.house{
+.house img{
+    margin-top: 3%;
     float: right;
     margin-right: 10%;
     width: 770px;
-height: 829px;
+    height: 829px;
 }
 
 .house p{
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    margin-left: 39%;
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 400;
@@ -70,8 +75,8 @@ height: 829px;
     text-transform: uppercase;
     background: #FFFFFF;
     color: #333333;
-    margin-top: -5%;
-    width: 200px;
+    margin-top: -3%;
+    width: 180px;
     height: 50px;
 }
 
@@ -96,9 +101,24 @@ height: 829px;
     color: #333333;
 }
 
+.arrow{
+    color: #333333;
+    padding-top: 5%;
+}
+.sign{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
 .paragraph{
     background: #FBFBFB;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
     height: 435px;
@@ -508,7 +528,7 @@ h2{
 
 .projects {
     background: #FBFBFB;
-    margin-left: 8%;
+    margin-left: 10%;
     margin-top: 5%;
     margin-right: 8%;
 }
@@ -557,7 +577,13 @@ h2{
     height: 30px;
     padding: 20px 50px;
     margin-top:15px;
-    width: 100px;
+    width: 130px;
+}
+
+
+.five{
+    margin-top: 2%;
+    color: #333333;
 }
 
 /*contact css*/
@@ -646,3 +672,37 @@ margin-top: -5%;
     background: #333333;
 }
 
+@media  screen and (max-width:786)
+{
+    header {
+        padding-left: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+    height: 50px;
+    width: 40px;
+    
+    }
+
+    nav {
+    width: 55%;
+    display: none;
+    }
+
+    ul {
+    margin-top: 5%;
+    list-style: none;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: inherit;
+    text-transform: uppercase;
+    color: #333333;
+    }
+
+    
+}
