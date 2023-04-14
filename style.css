@@ -9,18 +9,20 @@
 
 header{
     margin-left:  10%;
-    
     margin-right: 20%;
     display: flex;
     justify-content: space-between;
 }
 
-nav{
+.navbar{
     width: 55%;
 }
 
-.logo{
+.navb{
+    display: none;
+}
 
+.logo{
     height: 70px;
     width: 60px;
 }
@@ -54,7 +56,7 @@ a:hover{
 }
 
 .house img{
-    margin-top: 3%;
+    margin-top: -30%;
     float: right;
     margin-right: 10%;
     width: 770px;
@@ -79,9 +81,14 @@ a:hover{
     width: 180px;
     height: 50px;
 }
-
+.pn{
+    font-family:'TT Hoves';
+    font-style: normal;
+    font-size: 64px;        
+    line-height: 64px;
+}
 .project{
-    margin-left: 10%; 
+    margin-left:10%;
     margin-top: 23%;
     font-family: 'TT Hoves';
     font-style: normal;
@@ -92,12 +99,13 @@ a:hover{
 }
 
 .nurtown{
-    margin-left: 10%;
-    font-family: 'TT Hoves';
+    margin-left:10%;
+    font-family:'TT Hoves';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
+    font-weight: 700;
     color: #333333;
 }
 
@@ -356,21 +364,21 @@ img[src='images/playground.png']{
     color: #8D8D8D;
 }
 .hawn p{
-width: 521px;
-height: 64px;
-font-family: 'TT Hoves';
-font-style: normal;
-font-weight: 300;
-font-size: 64px;
-line-height: 64px;
-color: #BDBDBD;
-margin-bottom: 10px;
+    width: 521px;
+    height: 64px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
 }
 
 img[src="images/human.png"]{
-float: right;
-width: 749px;
-height: 395px;
+    float: right;
+    width: 749px;
+    height: 395px;
 }
 
 input{
@@ -380,33 +388,33 @@ input{
 }
 
 input[type="nmr"]{
-width: 391px;
-height: 46px;
-background: #F3F3F3;
+    width: 391px;
+    height: 46px;
+    background: #F3F3F3;
 }
 
 input[type="home"]{
      width: 391px;
-height: 45px;
-background: #F3F3F3;
+    height: 45px;
+    background: #F3F3F3;
 }
 
 input[type="email"]{
     width: 391px;
-height: 46px;
-background: #F3F3F3;
+    height: 46px;
+    background: #F3F3F3;
 }
 
 input[type="nht"]{
     width: 391px;
-height: 45px;
-background: #F3F3F3;
+    height: 45px;
+    background: #F3F3F3;
 }
 
 input[type="coo"]{
     width: 391px;
-height: 147px;
-background: #F3F3F3;
+    height: 147px;
+    background: #F3F3F3;
 }
 
 .otnp{
@@ -672,37 +680,451 @@ margin-top: -5%;
     background: #333333;
 }
 
-@media  screen and (max-width:786)
+@media  screen and (max-width:768px)
 {
-    header {
-        padding-left: 40%;
-        display: flex;
-        justify-content: space-between;
-    }
-
     .logo{
-    height: 50px;
-    width: 40px;
-    
+        margin-left: 50%;
+        height: 70px;
+        width: 60px;
     }
 
-    nav {
-    width: 55%;
+    .navbar{
     display: none;
     }
 
-    ul {
-    margin-top: 5%;
-    list-style: none;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 12px;
-    letter-spacing: inherit;
-    text-transform: uppercase;
-    color: #333333;
+    .navb{ 
+        display: contents;
     }
 
+    ul{ 
+        display: block;
+        list-style: none;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333;    
+    }
+
+    .house{
+        margin-bottom: 70%;
+    }
+       
+    .house img{
+        margin: auto;
+        display: block;
+        width: 490px;
+        height: 600px;
+        align-self: center;
+        display: flex;
+    } 
     
+    .house p{
+        float: left;
+        padding-top: 1%;
+        padding-left: 2%;
+        margin-left: 32%;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        background: #FFFFFF;
+        color: #333333;
+        margin-top: -3%;
+        width: 130px;
+        height: 20px;
+    }
+
+    .pn{
+        margin-top: -20%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    .project{ 
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 300;
+        color: #BDBDBD;
+        font-size: 60px;
+
+     }
+    
+    .nurtown{
+        font-family:'TT Hoves';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 55px;
+        font-weight: 700;
+        color: #333333;
+    }
+    
+   .arrow{
+        display: none;
+    }
+
+    .sign{
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #BDBDBD;
+        margin-top: 30%;
+    }
+    
+    .paragraph{
+        background:  #FBFBFB;
+        height: 950px;
+        display:grid;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .okm{
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 64px;
+        color: #BDBDBD;
+         }
+    
+    .lorem{
+        margin-top: 2%;
+        width: 400px;
+        font-family: 'TT Hoves';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .lorem p{
+        background: #FFFFFF;
+        font-weight: 300;
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+        padding: 10px 20px;
+        margin-top:10px; 
+        }
+
+    img[src="images/one.png"]{
+        margin-top: 5%;
+        width: 350px;
+        height: 200px;    
+    }
+    
+    img[src="images/two.png"]{
+        margin-top: 5%;
+        width: 350px;
+        height: 200px;
+        background: #c4c4c4;
+    }
+    
+    img[src="images/three.png"]{
+        margin-top: 5%;
+        width: 350px;
+        height: 140px;
+        background:  #C4C4C4;
+    }
+    
+    .number{
+        margin-top: 10%; 
+        text-align: center; 
+        display: grid;   
+    }
+    
+    .och{
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        color: #BDBDBD;
+    }
+        
+    #no .no{
+        height: 80px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 130px;
+        color: #F2F2F2;
+    }
+    
+    #no p{  
+        margin-left: -7%;    
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+    }
+    
+    #nom .nom{
+        height: 80px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 130px;
+        color: #F2F2F2;
+    }
+    
+    #nom p{
+        margin-left: -7%;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+        width: 350px
+    }
+
+    .ha{
+        margin-top: 20%;
+        display: grid;
+     }
+    
+    .haw{
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 64px;
+        color: #BDBDBD;
+        text-align: center;
+    } 
+ 
+    .cover{
+        margin-bottom: 3%;
+        width: 440px;
+        height: 255px;  
+        background-image:url(images/cover.png) #333333;  
+    }
+    
+    .doc{
+        padding: 40px;
+        width: 413px;
+        height: 128px;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    
+    .doc p{
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    img[src='images/fan.png'] {
+        margin-top:4%;
+        width: 450px;
+        height: 255px;
+    }
+    
+    img[src='images/field.png']{
+        margin-top: 4%;
+        width: 450px;
+        height: 255px;
+    }
+    
+    img[src='images/estate.png']{
+        width: 450px;
+        height: 255px;
+        margin-top: 4%;
+    }
+    
+    img[src='images/playground.png']{
+        width: 450px;
+        height: 255px;
+        margin-top: 4%;
+   }
+
+    #bc{   
+        float: right; 
+        width: 120px;
+        height: 30px;
+        font-family: 'Gothic A1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 3%;
+        padding-top: 3%;
+        background: #333333;
+    }
+    .hawn{
+        margin-top: 120%;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        color: #8D8D8D;
+        display: grid;        
+    }
+
+    .hawn p{
+    text-align: center;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #BDBDBD;
+    }
+    
+    img[src="images/human.png"]{
+        margin-bottom:3%;
+        width: 450px;
+        height: 250px;
+    }
+    
+    input{
+        display: block;
+        border: none;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    input[type="nmr"]{
+        width: 400px;
+        height: 26px;
+        background: #F3F3F3;
+    }
+    
+    input[type="home"]{
+         width: 400px;
+        height: 26px;
+        background: #F3F3F3;
+    }
+    
+    input[type="email"]{
+        width: 400px;
+        height: 26px;
+        background: #F3F3F3;
+    }
+    
+    input[type="nht"]{
+        width: 400px;
+        height: 26px;
+        background: #F3F3F3;
+    }
+    
+    input[type="coo"]{
+        width: 400px;
+        height: 107px;
+        background: #F3F3F3;
+    }
+    
+    .otnp{
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.03em;
+        color: #333333;
+        margin-left: 3%;
+    }
+
+    .ott{
+        padding-left: 15px;
+        margin-top: 2%;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        background: #333333;
+        color: #FFFFFF;
+        }
+
+        footer{
+            display: grid;
+            margin-top: 30%;
+            height: 400px;
+            background: #2C2C2C;
+        }
+        
+        tr{
+            margin-bottom: 10px;
+            justify-content: space-between;
+        }
+        table{
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: flex-end;
+            color: #FFFFFF;
+            margin-left: 10%;
+            margin-top: -7%;
+        }
+        
+        td{
+            width: 800px;
+            padding: 1%;
+            padding-left: 12%;
+        } 
+         
+        .fa-brands{
+            padding-right: 8%;
+        }
+        
+        .fa-solid{
+            padding-left: 10%;
+            width: 30px;
+        }
+        
+        #logo{
+            margin-top: 3%;
+            margin-left: 5%;
+            width: 115px;
+            height: 50px;
+        } 
+        
+        .copy{
+            height: 0px;
+            bottom: 70px;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            border: 1px solid #FFFFFF
+        }
+        
+        .copy p{
+            margin-top: 3%;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+            text-align: center;
+            color: #c8c8c8;
+        }
 }
