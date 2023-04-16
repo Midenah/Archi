@@ -14,12 +14,8 @@ header{
     justify-content: space-between;
 }
 
-.navbar{
+nav{
     width: 55%;
-}
-
-.navb{
-    display: none;
 }
 
 .logo{
@@ -42,6 +38,17 @@ ul{
     text-transform: uppercase;
     color: #333333;
 } 
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
 
 .go{
     text-decoration:overline underline;
@@ -596,10 +603,11 @@ h2{
 
 /*contact css*/
 
-.koh img{
+#map{
+margin-right: 15%;
 height: 501px;
 float: right;
-margin-top: -5%;
+margin-top: -15%;
 }
 
 .koh h1{
@@ -680,7 +688,7 @@ margin-top: -5%;
     background: #333333;
 }
 
-@media  screen and (max-width:768px)
+@media screen and (max-width:768px)
 {
     .logo{
         margin-left: 50%;
@@ -688,25 +696,36 @@ margin-top: -5%;
         width: 60px;
     }
 
-    .navbar{
-    display: none;
-    }
-
-    .navb{ 
-        display: contents;
-    }
-
-    ul{ 
+    nav ul{ 
         display: block;
+        margin-left: 110px;
         list-style: none;
         font-family: 'TT Hoves';
         font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 15px;
-        letter-spacing: 0.2em;
+        line-height: 20px;
+        letter-spacing: 0.2em; 
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        line-height: 20px;
+        margin: 0 5px;
+        color: #333333; 
+    }
+    nav li a{
         text-transform: uppercase;
-        color: #333333;    
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+
     }
 
     .house{
@@ -754,6 +773,7 @@ margin-top: -5%;
         font-weight: 300;
         color: #BDBDBD;
         font-size: 60px;
+        line-height: 1px;
 
      }
     
@@ -762,7 +782,7 @@ margin-top: -5%;
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
-        line-height: 55px;
+        line-height: 5px;
         font-weight: 700;
         color: #333333;
     }
@@ -772,13 +792,7 @@ margin-top: -5%;
     }
 
     .sign{
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
-        color: #BDBDBD;
-        margin-top: 30%;
+        display: none;
     }
     
     .paragraph{
@@ -980,7 +994,7 @@ margin-top: -5%;
         font-family: 'TT Hoves';
         font-style: normal;
         color: #8D8D8D;
-        display: grid;        
+        display: grid;       
     }
 
     .hawn p{
@@ -994,8 +1008,8 @@ margin-top: -5%;
     
     img[src="images/human.png"]{
         margin-bottom:3%;
-        width: 450px;
-        height: 250px;
+        width: 250px;
+        height: 100px;
     }
     
     input{
@@ -1093,15 +1107,6 @@ margin-top: -5%;
             padding-left: 12%;
         } 
          
-        .fa-brands{
-            padding-right: 8%;
-        }
-        
-        .fa-solid{
-            padding-left: 10%;
-            width: 30px;
-        }
-        
         #logo{
             margin-top: 3%;
             margin-left: 5%;
@@ -1127,4 +1132,151 @@ margin-top: -5%;
             text-align: center;
             color: #c8c8c8;
         }
+
+        /* project*/
+
+        h1{
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 50px;
+            color: #BDBDBD;
+            text-align: center;
+        }
+        
+        h2{
+            margin-left: 10%;
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height:50px;
+            color: #333333;
+            text-align: center;
+            margin-bottom: 10%;
+        }
+        
+        .projects {
+            display: grid;
+            background: #FBFBFB;
+            margin-left: 60%;
+            margin-top: 5%;
+            margin-right: 8%;
+        
+        }
+        
+        .projects img {
+            width: 250px;
+            height: 200px;
+
+        }
+        
+        .projects p{
+            margin-left: -90%;
+            margin-top: -200px;
+            width: 400px;
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 10px;
+            color: #BDBDBD;
+        }
+        
+        .pjt{
+            width: 350px;
+            margin-left: -85%;
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+            color: #000000;
+            margin-top: -40%;
+            padding-left: 10px;
+            margin-bottom: 30%;
+        }
+        
+        .pjt p{
+            font-size: 12px;
+            margin-left: 5%;
+            margin-top: 2px;
+            height: 10px;
+            width: 60%;
+        }
+        
+        .five{
+            display: none;
+        }
+
+        /*contact*/
+
+           .koh{
+            margin-left: 20px;
+            margin-top: -20%;
+            }
+            
+            #map{
+                margin-top: 10%;
+            }
+            .koh h1{
+                margin-top: 30%;
+                font-weight: 300;
+                font-size: 40px;
+                line-height: 40px;
+                color: #BDBDBD;
+            }
+            
+            .koh h2{
+                margin-bottom: 5%;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+                color: #333333;
+                order: 1;
+            }
+            
+            .address{
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 20%
+          }
+            
+             .address p{
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 12px;
+            }
+            
+            #number{
+                margin-left: 10%;
+                margin-bottom: 5%;
+                font-size: 18px;
+                line-height: 22px;
+                color: #333333;
+            }
+            
+            #gmail{
+                margin-left: 10%;
+                font-family: 'TT Hoves';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 20px;
+                color: #333333;
+            }
+            
+            #op{
+                margin-left: 10%;
+                width: 180px;
+                height: 20px;
+                font-size: 8px;
+                line-height: 12px;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-align: center;
+                padding-top: 2%;
+                background: #333333;
+            }
 }
+
