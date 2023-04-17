@@ -10,7 +10,7 @@
 }
 
 header{
-    margin-left:  10%;
+    margin-left: 10%;
     margin-right: 20%;
     display: flex;
     justify-content: space-between;
@@ -50,8 +50,8 @@ ul{
     display: none;
 }
 
-.go{
-    text-decoration:overline underline;
+li .go{
+    text-decoration:overline, underline;
 }
 
 a{
@@ -569,14 +569,9 @@ iframe{
         margin-left: 50%;
     }
    ul{
-    display: none;
+    text-align: center;
+    display: block;
    }
-  #check{
-    display: flex;
-  }
-  .checkbtn{
-    display: flex;
-  }
   .pn{
     padding-bottom: 30%;
   }
@@ -758,7 +753,8 @@ iframe{
         height: 200px;
     }
 .koh h1{
-    font-size: 50px;
+    margin-top: 15%;
+        font-size: 50px;
     line-height: 40px;
 }
 .koh h2{
@@ -797,13 +793,7 @@ iframe{
         margin-left: 50%;
     }
    ul{
-    display: none;
-  }
-  #check{
-    display: flex;
-  }
-  .checkbtn{
-    display: flex;
+    display: block;
   }
   .pn{
     padding-bottom: 30%;
@@ -1045,7 +1035,6 @@ ul{
     width: 600px;
     height: 709px;
 }
-
 .house p{
     padding-top: 1%;
     padding-left: 2%;
@@ -1060,8 +1049,7 @@ ul{
 
 .pn .project{
     margin-left:5%;
-    font-size: 50px;    
-    line-height: 60px;
+    font-size: 50%;
 }
 .nurtown{
     margin-left:5%;
@@ -1452,6 +1440,5 @@ iframe{
         width: 480px;
         height: 295px;
         margin-right: 45%;
-    }
-    
+    }   
 }
