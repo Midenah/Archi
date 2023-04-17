@@ -5,6 +5,8 @@
 
 .container{
     background: #ffffff;
+    font-family: 'TT Hoves';
+    font-style: normal;
 }
 
 header{
@@ -29,8 +31,6 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -75,8 +75,6 @@ a:hover{
     padding-top: 1%;
     padding-left: 2%;
     margin-left: 39%;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -89,16 +87,12 @@ a:hover{
     height: 50px;
 }
 .pn{
-    font-family:'TT Hoves';
-    font-style: normal;
     font-size: 64px;        
     line-height: 64px;
 }
 .project{
     margin-left:10%;
     margin-top: 23%;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
@@ -107,8 +101,6 @@ a:hover{
 
 .nurtown{
     margin-left:10%;
-    font-family:'TT Hoves';
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
@@ -121,8 +113,6 @@ a:hover{
     padding-top: 5%;
 }
 .sign{
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
@@ -136,14 +126,11 @@ a:hover{
     margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 435px;
 }
 
 .okm{
     float: right ;
     margin-right:10%;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
@@ -155,7 +142,6 @@ a:hover{
     margin-right:-35%;
     float: right;
     width: 400px;
-    font-family: 'TT Hoves';
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
@@ -179,111 +165,59 @@ img[src="images/two.png"]{
     height: 345px;
     background: #c4c4c4;
 }
-
 img[src="images/three.png"]{
     width: 270px;
     height: 140px;
     background:  #C4C4C4;
 }
-
-
 .number{
-    margin-top: 10%;
+    margin-bottom: 20%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 268px;
-
+    margin-top: 10%;
 }
-
 .och{
-    width: 519px;
-    height: 64px;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
 }
-
-#no{
+.no{
     float: left;
-    width: 413px;
-    height: 144px;
+    justify-content: space-between;
+    margin-right: 18%;
 }
-
-#no .no{
+ .no .nom{
+    display: flex;
     width: 104px;
     height: 140px;
     font-family: 'SF Pro Display';
-    font-style: normal;
     font-weight: 900;
     font-size: 200px;
     line-height: 239px;
-    display: flex;
     align-items: center;
     color: #F2F2F2;
 }
-
-#no p{
+.no p{
     float: right;
     width: 279px;
-    height: 144px;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     color: #333333;
 }
-
-#nom{
-    float: right;
-    width: 570px;
-    height: 144px;  
-}
-
-#nom .nom{
-    width: 120px;
-    height: 140px;
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 200px;
-    line-height: 239px;
-    display: flex;
-    align-items: center;
-    color: #F2F2F2;
-}
-
-#nom p{
-    float: right;
-    width: 420px;
-    height: 144px;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
-    color: #333333;
-}
-
 .ha{
     margin-top: 5%;
     margin-left:10%;
     margin-right: 10%;
-    height: 765px;
+    align-items: center;
 }
-
 .haw{
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
 } 
-
 .cover{
     margin-bottom: 3%;
     width: 570px;
@@ -291,29 +225,22 @@ img[src="images/three.png"]{
     background-image:url(images/cover.png);
     background:#333333 transparent 1.5rem;
 }
-
 .doc{
     padding: 40px;
     width: 413px;
-    height: 128px;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #FFFFFF;
 }
-
 .doc p{
     font-family: 'Gothic A1';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
-
 img[src='images/fan.png'] {
     float: right;
     margin-top: -24%;
@@ -321,30 +248,25 @@ img[src='images/fan.png'] {
     height: 255px;
 
 }
-
 img[src='images/field.png']{
     width: 270px;
     height: 255px;
 }
-
 img[src='images/estate.png']{
     width: 470px;
     height: 255px;
     padding-left:5%;
 }
-
 img[src='images/playground.png']{
     float: right;
     width: 370px;
     height: 255px;
 }
-
 #bc{   
     float: right; 
     width: 230px;
     height: 40px;
     font-family: 'Gothic A1';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -359,11 +281,7 @@ img[src='images/playground.png']{
 .hawn{
     margin-left: 10%;
     margin-right: 10%;
-    width: 1170px;
-    height: 603px;
     padding-top: 5%;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -371,41 +289,32 @@ img[src='images/playground.png']{
     color: #8D8D8D;
 }
 .hawn p{
-    width: 521px;
-    height: 64px;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
     margin-bottom: 10px;
 }
-
 img[src="images/human.png"]{
     float: right;
     width: 749px;
     height: 395px;
 }
-
 input{
     display: block;
     border:none;
     padding-left: 20px;
 }
-
 input[type="nmr"]{
     width: 391px;
     height: 46px;
     background: #F3F3F3;
 }
-
 input[type="home"]{
      width: 391px;
     height: 45px;
     background: #F3F3F3;
 }
-
 input[type="email"]{
     width: 391px;
     height: 46px;
@@ -417,18 +326,13 @@ input[type="nht"]{
     height: 45px;
     background: #F3F3F3;
 }
-
 input[type="coo"]{
     width: 391px;
     height: 147px;
     background: #F3F3F3;
 }
-
 .otnp{
     margin-top: 2%;
-    width: 331px;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -442,8 +346,6 @@ button{
     width: 220px;
     height: 60px;
     text-align: center;
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -452,68 +354,53 @@ button{
     background: #333333;
     color: #FFFFFF;
 }
-
 footer{
     margin-top: 5%;
     height: 400px;
     background: #2C2C2C;
 }
-
 tr{
-  
     margin-bottom: 10px;
     justify-content: space-between;
 }
 table{
-    font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: flex-end;
     color: #FFFFFF;
     margin-left: 30%;
     margin-top: -7%;
 }
-
 td{
     width: 800px;
     padding: 1%;
     padding-left: 12%;
 } 
- 
 .fa-brands{
     padding-right: 8%;
 }
-
 .fa-solid{
     padding-left: 10%;
     width: 30px;
 }
-
 #logo{
     margin-top: 3%;
     margin-left: 15%;
     width: 145px;
     height: 94px;
 } 
-
 .copy{
     height: 0px;
     bottom: 70px;
-    mix-blend-mode: normal;
     opacity: 0.1;
     border: 1px solid #FFFFFF
 }
-
 .copy p{
-    margin-top: 3%;
+    margin-top: 2%;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    padding-bottom: 2%;
     text-align: center;
     color: #c8c8c8;
 }
@@ -530,7 +417,6 @@ h1{
     line-height: 64px;
     color: #BDBDBD;
 }
-
 h2{
     margin-left: 10%;
     font-family: 'TT Hoves';
@@ -540,32 +426,32 @@ h2{
     line-height: 64px;
     color: #333333;
 }
-
 .projects {
     background: #FBFBFB;
     margin-left: 10%;
     margin-top: 5%;
     margin-right: 8%;
 }
-
-.projects img {
+.project img{
+    float: left;
     width: 670px;
     height: 435px;
 }
-
-.projects p{
-    width: 400px;
+.projecta{
     float: right;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 400px;
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
     line-height: 50px;
     color: #BDBDBD;
+    margin-right: 10%
 }
-
-.pjt{
-    float: right;
+.pjt{ 
+    margin-top: 5%;
     width: 350px;
     font-family: 'TT Hoves';
     font-style: normal;
@@ -573,11 +459,7 @@ h2{
     font-size: 16px;
     line-height: 25px;
     color: #000000;
-    margin-top: -25%;
-    padding-left: -10px;
-    padding-right: 50px;
 }
-
 .pjt p{
     float: left;
     font-family: 'TT Hoves';
@@ -591,25 +473,25 @@ h2{
     background: #FFFFFF;
     height: 30px;
     padding: 20px 50px;
-    margin-top:15px;
+    margin-top:15%;
     width: 130px;
 }
-
-
 .five{
-    margin-top: 2%;
+    margin-top: 3%;
     color: #333333;
+    margin-left: 10%;
+    font-size: 20px;
 }
 
 /*contact css*/
-
-#map{
-margin-right: 15%;
-height: 501px;
+.map{
 float: right;
-margin-top: -15%;
+margin-top: -17%;
 }
-
+iframe{
+    width: 800px;
+    height: 501px;
+}
 .koh h1{
     font-family: 'TT Hoves';
     font-style: normal;
@@ -618,7 +500,6 @@ margin-top: -15%;
     line-height: 64px;
     color: #BDBDBD;
 }
-
 .koh h2{
     margin-bottom: 5%;
     font-family: 'TT Hoves';
@@ -629,7 +510,6 @@ margin-top: -15%;
     color: #333333;
     order: 1;
 }
-
 .address{
     margin-left: 10%;
     font-family: 'TT Hoves';
@@ -639,7 +519,6 @@ margin-top: -15%;
     line-height: 22px;
     color: #333333;
 }
-
  .address p{
     margin-bottom: 5%;
     font-family: 'TT Hoves';
@@ -648,7 +527,6 @@ margin-top: -15%;
     font-size: 18px;
     line-height: 20px;
 }
-
 #number{
     margin-left: 10%;
     margin-bottom: 5%;
@@ -659,7 +537,6 @@ margin-top: -15%;
     line-height: 22px;
     color: #333333;
 }
-
 #gmail{
     margin-left: 10%;
     font-family: 'TT Hoves';
@@ -669,7 +546,6 @@ margin-top: -15%;
     line-height: 20px;
     color: #333333;
 }
-
 #op{
     margin-left: 10%;
     width: 230px;
@@ -688,595 +564,809 @@ margin-top: -15%;
     background: #333333;
 }
 
-@media screen and (max-width:768px)
-{
+@media only screen and (max-width:768px){
     .logo{
         margin-left: 50%;
+    }
+   ul{
+    display: none;
+   }
+  #check{
+    display: flex;
+  }
+  .checkbtn{
+    display: flex;
+  }
+  .pn{
+    padding-bottom: 30%;
+  }
+  .project{
+    font-size: 50px;
+    text-align: center;
+  }
+  .nurtown{
+    font-size: 50px;
+    text-align: center;
+  }
+  .house p{
+    padding-top: 2%;
+    width: 110px;
+    height: 10px;
+    font-size: 8px;
+  }
+  .house img{
+    width: 480px;
+    height: 500px;
+  }
+  .sign{ 
+    font-size: 20px;
+  }
+  .arrow{
+    display: none;    
+  }
+  .paragraph{
+    margin-top: 40%;
+    height: 950px;
+    width: 650px;
+  }
+  .okm{
+    font-size:40px;
+  }
+  .lorem{
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 490px;
+    font-size: 14px;
+  }
+  .lorem p{
+    width: 70px;
+    font-size: 10px;
+    height: 5px;
+  }
+  .paragraph img{
+    padding-top: 20px;
+    margin-left: 90px;
+    display: block;
+    width: 380px;
+    height: 200px;
+    justify-content: space-between;
+  }
+  .number{
+    margin-top: 10%;
+    display: block;
+  }
+  .och{
+    font-size: 40px;
+    text-align: center;
+  }
+  .no p{
+    font-size: 18px;
+  }
+  .no .nom{
+font-size:150px;
+  }
+  .ha{
+    margin-top: 50%;
+ }
+.haw{
+    font-size: 40px;
+    text-align: center;
+} 
+.cover{
+    margin-left: 10%;
+    margin-bottom: 30%;
+    width: 380px;
+    height: 200px;
+}
+.doc{
+    padding: 20px;
+    font-size: 40px;
+    line-height: 40px;
+}
+.doc p{
+    font-size: 8px;
+}
+#bc{
+    float: none;
+    font-size: 10px; 
+}
+ .ha img{
+    margin-left:10%;
+    float: none;
+    margin-bottom: 10%;
+    width: 380px;
+    height: 250px;
+ }  
+ .hawn{
+    margin-top: 5%;
+    display: block;
+ }
+ .hawn p{
+    font-size: 40px;
+    text-align: center;
+ }
+ .hawn img{
+    margin-right: 30%;
+    width: 400px;
+    height: 200px;
+ }
+ input{
+    font-size: 12px;
+ }
+ #logo{
+    width:100px ;
+    height:80px ;
+ }
+ td{
+    font-size: 16px;
+ }
+.copy p{
+    font-size: 10px;
+}
+
+/* project css*/
+h1{
+    margin-top: 10%;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.projects img {
+    margin-top: 5%;
+    width: 380px;
+    height: 250px;
+    margin-left: 100px;
+}
+.projects p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+.pjt{
+    width: 350px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: -10px;
+    padding-right: 50px;
+}
+.pjt p{
+    font-size: 8px;
+    height: 10px;
+    padding: 20px 20px;
+    margin-top:15px;
+    width: 100px;
+}
+.five p{
+    font-size: 14px;
+}
+.five i{
+    display: none;
+}
+
+
+/*contact css*/
+.map{
+    margin-top: 1px;
+    }
+iframe{
+        width: 300px;
+        height: 200px;
+    }
+.koh h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+.koh h2{
+    font-size: 50px;
+    line-height: 40px;
+}
+.address{
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+ .address p{
+    font-size: 14px;
+    line-height: 10px;
+}
+#number{
+    font-size: 12px;
+}
+#gmail{
+    font-size: 14px;    
+}
+#op{
+    width: 100px;
+    height: 20px;
+    font-size: 8px;
+    line-height: 12px;    
+    padding-top: 1%;
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px){
+    .container{
+        overflow: hidden;
+    }
+    .logo{
+        margin-left: 50%;
+    }
+   ul{
+    display: none;
+  }
+  #check{
+    display: flex;
+  }
+  .checkbtn{
+    display: flex;
+  }
+  .pn{
+    padding-bottom: 30%;
+  }
+  .project{
+    font-size: 50px;
+    text-align: center;
+  }
+  .nurtown{
+    font-size: 50px;
+    text-align: center;
+  }
+  .house p{
+    padding-top: 2%;
+    width: 110px;
+    height: 10px;
+    font-size: 12px;
+  }
+  .house img{
+    width: 600px;
+    height: 580px;
+  }
+  .sign{ 
+    font-size: 20px;
+  }
+  .arrow{
+    display: none;    
+  }
+  .paragraph{
+    margin-top: 20%;
+    height: 1060px;
+    width: 650px;
+  }
+  .okm{
+    font-size:50px;
+  }
+  .lorem{
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 490px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .lorem p{
+    width: 70px;
+    font-size: 12px;
+    height: 5px;
+  }
+  .paragraph img{
+    padding-top: 20px;
+    margin-left: 90px;
+    display: block;
+    width: 380px;
+    height: 200px;
+    justify-content: space-between;
+  }
+  .number{
+    margin-top: 10%;
+    display: block;
+  }
+  .och{
+    font-size: 50px;
+    text-align: center;
+  }
+  .no p{
+    font-size: 20px;
+  }
+  .no .nom{
+    font-size:170px;
+  }
+  .ha{
+    margin-top: 50%;
+ }
+.haw{
+    font-size: 50px;
+    text-align: center;
+} 
+.cover{
+    margin-left: 10%;
+    margin-bottom: 30%;
+    width: 580px;
+    height: 300px;
+}
+.doc{
+    padding: 20px;
+    font-size: 40px;
+    line-height: 40px;
+}
+.doc p{
+    font-size: 10px;
+}
+#bc{
+    float: none;
+    font-size: 10px; 
+}
+ .ha img{
+    margin-left:10%;
+    float: none;
+    margin-bottom: 10%;
+    width: 580px;
+    height: 300px;
+ }  
+ .hawn{
+    margin-top: 5%;
+    display: block;
+ }
+ .hawn p{
+    font-size: 50px;
+    text-align: center;
+ }
+ .hawn img{
+    margin-right: 30%;
+    width: 480px;
+    height: 250px;
+ }
+ input{
+    font-size: 14px;
+ }
+ #logo{
+    width:100px ;
+    height:80px ;
+ }
+ td{
+    font-size: 18px;
+ }
+.copy p{
+    font-size: 14px;
+}
+
+/* project css*/
+h1{
+    margin-top: 10%;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.projects img {
+    margin-top: 5%;
+    width: 580px;
+    height: 350px;
+    margin-left: 100px;
+}
+.projects p{
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+}
+.pjt{
+    width: 350px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: -10px;
+    padding-right: 50px;
+}
+.pjt p{
+    font-size: 10px;
+    height: 10px;
+    padding: 20px 20px;
+    margin-top:15px;
+    width: 100px;
+}
+.five p{
+    font-size: 16px;
+}
+.five i{
+    display: none;
+}
+
+
+/*contact css*/
+.map{
+    margin-top: 1px;
+    }
+iframe{
+        width: 390px;
+        height: 200px;
+    }
+.koh h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+.koh h2{
+    font-size: 50px;
+    line-height: 40px;
+}
+.address{
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+ .address p{
+    font-size: 14px;
+    line-height: 10px;
+}
+#number{
+    font-size: 12px;
+}
+#gmail{
+    font-size: 14px;    
+}
+#op{
+    width: 100px;
+    height: 20px;
+    font-size: 8px;
+    line-height: 12px;    
+    padding-top: 1%;
+}
+}
+
+@media only screen and (min-width:992px) and (max-width:1023px){
+    
+header{
+    margin-left:  10%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px;
+    width: 60px;
+}
+li{
+    margin-left: 8%;
+}
+ul{
+    font-size: 12px;
+} 
+.house img{
+    margin-top: -30%;
+    margin-right: 5%;
+    width: 600px;
+    height: 709px;
+}
+
+.house p{
+    padding-top: 1%;
+    padding-left: 2%;
+    margin-left: 35%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: -3%;
+    width: 120px;
+    height: 22px;
+}
+
+.pn .project{
+    margin-left:5%;
+    font-size: 50px;    
+    line-height: 60px;
+}
+.nurtown{
+    margin-left:5%;
+    font-size: 50px;
+}
+
+.sign{
+    font-size: 20px;
+}
+
+.paragraph{
+    margin-top: 35%;
+    margin-left: 5%;
+}
+
+.okm{
+    margin-right:5%;
+    font-size: 50px;
+}
+
+.lorem{
+    margin-top: 8%;
+    margin-right:-35%;
+    float: right;
+    width: 300px;
+    font-size: 12px;
+}
+.lorem p{
+    width: 100px;
+    height: 20px;
+    padding: 10px 30px;
+    }
+
+.paragraph img[src="images/one.png"]{
+    width: 210px;
+    height: 255px;    
+}
+
+img[src="images/two.png"]{
+    width: 210px;
+    height: 255px;
+}
+img[src="images/three.png"]{
+    width: 210px;
+    height: 140px;
+}
+.number{
+    margin-bottom: 20%;
+    margin-left: 5%;
+}
+.och{
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 64px;
+}
+.no{
+    margin-right: 5%;
+}
+ .no .nom{
+    width: 90px;
+    height: 120px;
+    font-size: 150px;
+}
+.no p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.ha{
+    margin-top: 5%;
+    margin-left:5%;
+}
+.haw{
+    font-size: 50px;
+} 
+.cover{
+    margin-bottom: 3%;
+    width: 400px;
+    height: 255px;  
+}
+.doc{
+    padding: 30px;
+    width: 400px;
+    font-size: 50px;
+    line-height: 50px;
+}
+.doc p{
+    font-weight: 400;
+    font-size: 10px;
+}
+img[src='images/fan.png'] {
+    float: right;
+    margin-top: -33%;
+    width: 400px;
+    height: 255px;
+}
+img[src='images/field.png']{
+    width: 250px;
+    height: 255px;
+}
+img[src='images/estate.png']{
+    width: 250px;
+    height: 255px;
+    padding-left:7%;
+}
+img[src='images/playground.png']{
+    float: right;
+    width: 250px;
+    height: 255px;
+}
+#bc{   
+    width: 200px;
+    font-size: 10px;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+.hawn{
+    margin-left: 5%;
+    padding-top: 15%;
+    font-size: 14px;
+}
+.hawn p{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+img[src="images/human.png"]{
+    margin-bottom: 5%;
+    width: 480px;
+    height: 295px;
+    margin-right: 45%;
+}
+
+} 
+@media only screen and (min-width:1024px) and (max-width:1280px){
+    header{
+        margin-left:  10%;
+        margin-right: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo{
         height: 70px;
         width: 60px;
     }
-
-    nav ul{ 
-        display: block;
-        margin-left: 110px;
-        list-style: none;
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 20px;
-        letter-spacing: 0.2em; 
-        text-align: center;
+    li{
+        margin-left: 8%;
     }
-
-    nav li {
-        display: block;
-        line-height: 20px;
-        margin: 0 5px;
-        color: #333333; 
-    }
-    nav li a{
-        text-transform: uppercase;
-    }
-
-    .checkbtn{
-        display: block;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-
-    }
-
-    .house{
-        margin-bottom: 70%;
-    }
-       
-    .house img{
-        margin: auto;
-        display: block;
-        width: 490px;
-        height: 600px;
-        align-self: center;
-        display: flex;
+    ul{
+        font-size: 12px;
     } 
+    .house img{
+        margin-top: -30%;
+        margin-right: 5%;
+        width: 640px;
+        height: 749px;
+    }
     
     .house p{
-        float: left;
         padding-top: 1%;
         padding-left: 2%;
-        margin-left: 32%;
-        font-family: 'TT Hoves';
-        font-style: normal;
+        margin-left: 35%;
         font-weight: 400;
-        font-size: 8px;
+        font-size: 10px;
         line-height: 12px;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
-        background: #FFFFFF;
-        color: #333333;
         margin-top: -3%;
-        width: 130px;
-        height: 20px;
+        width: 120px;
+        height: 22px;
     }
-
     .pn{
-        margin-top: -20%;
-        padding-bottom: 5%;
-        padding-top: 5%;
-        text-align: center;
+        font-size: 56px;        
+        line-height: 60px;
     }
-    
-    .project{ 
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 300;
-        color: #BDBDBD;
-        font-size: 60px;
-        line-height: 1px;
-
-     }
-    
+    .project{
+        margin-left:5%;
+        font-size: 50px;    
+        line-height: 60px;
+    }
     .nurtown{
-        font-family:'TT Hoves';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 5px;
-        font-weight: 700;
-        color: #333333;
+        margin-left:5%;
+        font-size: 50px;
+        line-height: 60px;
     }
     
-   .arrow{
-        display: none;
-    }
-
     .sign{
-        display: none;
+        font-size: 20px;
     }
     
     .paragraph{
-        background:  #FBFBFB;
-        height: 950px;
-        display:grid;
-        width: 600px;
-        text-align: center;
+        margin-top: 35%;
+        margin-left: 5%;
     }
     
     .okm{
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 300;
+        margin-right:5%;
         font-size: 50px;
-        line-height: 64px;
-        color: #BDBDBD;
-         }
+    }
     
     .lorem{
-        margin-top: 2%;
-        width: 400px;
-        font-family: 'TT Hoves';
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 25px;
-        color: #000000;
+        margin-top: 8%;
+        margin-right:-35%;
+        float: right;
+        width: 300px;
+        font-size: 12px;
     }
     .lorem p{
-        background: #FFFFFF;
-        font-weight: 300;
-        font-size: 8px;
-        width: 70px;
+        width: 100px;
         height: 20px;
-        padding: 10px 20px;
-        margin-top:10px; 
+        padding: 10px 30px;
         }
-
-    img[src="images/one.png"]{
-        margin-top: 5%;
-        width: 350px;
-        height: 200px;    
+    
+    .paragraph img[src="images/one.png"]{
+        width: 210px;
+        height: 255px;    
     }
     
     img[src="images/two.png"]{
-        margin-top: 5%;
-        width: 350px;
-        height: 200px;
-        background: #c4c4c4;
+        width: 210px;
+        height: 255px;
     }
-    
     img[src="images/three.png"]{
-        margin-top: 5%;
-        width: 350px;
+        width: 210px;
         height: 140px;
-        background:  #C4C4C4;
     }
-    
     .number{
-        margin-top: 10%; 
-        text-align: center; 
-        display: grid;   
+        margin-bottom: 20%;
+        margin-left: 5%;
     }
-    
     .och{
-        font-family: 'TT Hoves';
-        font-style: normal;
         font-weight: 300;
-        font-size: 40px;
-        color: #BDBDBD;
-    }
-        
-    #no .no{
-        height: 80px;
-        font-family: 'SF Pro Display';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 130px;
-        color: #F2F2F2;
-    }
-    
-    #no p{  
-        margin-left: -7%;    
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: #333333;
-    }
-    
-    #nom .nom{
-        height: 80px;
-        font-family: 'SF Pro Display';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 130px;
-        color: #F2F2F2;
-    }
-    
-    #nom p{
-        margin-left: -7%;
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        color: #333333;
-        width: 350px
-    }
-
-    .ha{
-        margin-top: 20%;
-        display: grid;
-     }
-    
-    .haw{
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 64px;
-        color: #BDBDBD;
-        text-align: center;
+    }
+    .no{
+        margin-right: 5%;
+    }
+     .no .nom{
+        width: 90px;
+        height: 120px;
+        font-size: 150px;
+    }
+    .no p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .ha{
+        margin-top: 5%;
+        margin-left:5%;
+    }
+    .haw{
+        font-size: 50px;
     } 
- 
     .cover{
         margin-bottom: 3%;
-        width: 440px;
+        width: 400px;
         height: 255px;  
-        background-image:url(images/cover.png) #333333;  
     }
-    
     .doc{
-        padding: 40px;
-        width: 413px;
-        height: 128px;
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 34px;
-        color: #FFFFFF;
+        padding: 30px;
+        width: 400px;
+        font-size: 50px;
+        line-height: 50px;
     }
-    
     .doc p{
-        font-family: 'Gothic A1';
-        font-style: normal;
         font-weight: 400;
         font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
     }
-
     img[src='images/fan.png'] {
-        margin-top:4%;
-        width: 450px;
+        float: right;
+        margin-top: -33%;
+        width: 400px;
         height: 255px;
     }
-    
     img[src='images/field.png']{
-        margin-top: 4%;
-        width: 450px;
+        width: 250px;
         height: 255px;
     }
-    
     img[src='images/estate.png']{
-        width: 450px;
+        width: 250px;
         height: 255px;
-        margin-top: 4%;
+        padding-left:7%;
     }
-    
     img[src='images/playground.png']{
-        width: 450px;
+        float: right;
+        width: 250px;
         height: 255px;
-        margin-top: 4%;
-   }
-
+    }
     #bc{   
-        float: right; 
-        width: 120px;
-        height: 30px;
-        font-family: 'Gothic A1';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 8px;
-        line-height: 12px;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        text-align: center;
-        margin-top: 3%;
-        padding-top: 3%;
-        background: #333333;
+        width: 200px;
+        font-size: 10px;
+        margin-top: 5%;
+        padding-top: 2%;
     }
     .hawn{
-        margin-top: 120%;
-        font-family: 'TT Hoves';
-        font-style: normal;
-        color: #8D8D8D;
-        display: grid;       
+        margin-left: 5%;
+        padding-top: 15%;
+        font-size: 14px;
     }
-
     .hawn p{
-    text-align: center;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    color: #BDBDBD;
+        font-size: 50px;
+        margin-bottom: 10px;
     }
-    
     img[src="images/human.png"]{
-        margin-bottom:3%;
-        width: 250px;
-        height: 100px;
+        margin-bottom: 5%;
+        width: 480px;
+        height: 295px;
+        margin-right: 45%;
     }
     
-    input{
-        display: block;
-        border: none;
-        padding-left: 10px;
-        font-size: 10px;
-    }
-    
-    input[type="nmr"]{
-        width: 400px;
-        height: 26px;
-        background: #F3F3F3;
-    }
-    
-    input[type="home"]{
-         width: 400px;
-        height: 26px;
-        background: #F3F3F3;
-    }
-    
-    input[type="email"]{
-        width: 400px;
-        height: 26px;
-        background: #F3F3F3;
-    }
-    
-    input[type="nht"]{
-        width: 400px;
-        height: 26px;
-        background: #F3F3F3;
-    }
-    
-    input[type="coo"]{
-        width: 400px;
-        height: 107px;
-        background: #F3F3F3;
-    }
-    
-    .otnp{
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 10px;
-        letter-spacing: 0.03em;
-        color: #333333;
-        margin-left: 3%;
-    }
-
-    .ott{
-        padding-left: 15px;
-        margin-top: 2%;
-        width: 120px;
-        height: 40px;
-        text-align: center;
-        font-family: 'TT Hoves';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 8px;
-        line-height: 12px;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
-        background: #333333;
-        color: #FFFFFF;
-        }
-
-        footer{
-            display: grid;
-            margin-top: 30%;
-            height: 400px;
-            background: #2C2C2C;
-        }
-        
-        tr{
-            margin-bottom: 10px;
-            justify-content: space-between;
-        }
-        table{
-            font-family: 'TT Hoves';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 20px;
-            display: flex;
-            align-items: flex-end;
-            color: #FFFFFF;
-            margin-left: 10%;
-            margin-top: -7%;
-        }
-        
-        td{
-            width: 800px;
-            padding: 1%;
-            padding-left: 12%;
-        } 
-         
-        #logo{
-            margin-top: 3%;
-            margin-left: 5%;
-            width: 115px;
-            height: 50px;
-        } 
-        
-        .copy{
-            height: 0px;
-            bottom: 70px;
-            mix-blend-mode: normal;
-            opacity: 0.1;
-            border: 1px solid #FFFFFF
-        }
-        
-        .copy p{
-            margin-top: 3%;
-            font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 22px;
-            text-align: center;
-            color: #c8c8c8;
-        }
-
-        /* project*/
-
-        h1{
-            font-weight: 300;
-            font-size: 40px;
-            line-height: 50px;
-            color: #BDBDBD;
-            text-align: center;
-        }
-        
-        h2{
-            margin-left: 10%;
-            font-family: 'TT Hoves';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height:50px;
-            color: #333333;
-            text-align: center;
-            margin-bottom: 10%;
-        }
-        
-        .projects {
-            display: grid;
-            background: #FBFBFB;
-            margin-left: 60%;
-            margin-top: 5%;
-            margin-right: 8%;
-        
-        }
-        
-        .projects img {
-            width: 250px;
-            height: 200px;
-
-        }
-        
-        .projects p{
-            margin-left: -90%;
-            margin-top: -200px;
-            width: 400px;
-            font-family: 'TT Hoves';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 30px;
-            line-height: 10px;
-            color: #BDBDBD;
-        }
-        
-        .pjt{
-            width: 350px;
-            margin-left: -85%;
-            font-family: 'TT Hoves';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 25px;
-            color: #000000;
-            margin-top: -40%;
-            padding-left: 10px;
-            margin-bottom: 30%;
-        }
-        
-        .pjt p{
-            font-size: 12px;
-            margin-left: 5%;
-            margin-top: 2px;
-            height: 10px;
-            width: 60%;
-        }
-        
-        .five{
-            display: none;
-        }
-
-        /*contact*/
-
-           .koh{
-            margin-left: 20px;
-            margin-top: -20%;
-            }
-            
-            #map{
-                margin-top: 10%;
-            }
-            .koh h1{
-                margin-top: 30%;
-                font-weight: 300;
-                font-size: 40px;
-                line-height: 40px;
-                color: #BDBDBD;
-            }
-            
-            .koh h2{
-                margin-bottom: 5%;
-                font-weight: 700;
-                font-size: 40px;
-                line-height: 45px;
-                color: #333333;
-                order: 1;
-            }
-            
-            .address{
-                font-size: 18px;
-                line-height: 22px;
-                margin-top: 20%
-          }
-            
-             .address p{
-                font-weight: 300;
-                font-size: 12px;
-                line-height: 12px;
-            }
-            
-            #number{
-                margin-left: 10%;
-                margin-bottom: 5%;
-                font-size: 18px;
-                line-height: 22px;
-                color: #333333;
-            }
-            
-            #gmail{
-                margin-left: 10%;
-                font-family: 'TT Hoves';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 16px;
-                line-height: 20px;
-                color: #333333;
-            }
-            
-            #op{
-                margin-left: 10%;
-                width: 180px;
-                height: 20px;
-                font-size: 8px;
-                line-height: 12px;
-                letter-spacing: 0.2em;
-                text-transform: uppercase;
-                color: #FFFFFF;
-                text-align: center;
-                padding-top: 2%;
-                background: #333333;
-            }
 }
-
