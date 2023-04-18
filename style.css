@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Thin.eot');
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    overflow-x: hidden;
+   font-family: 'TT hoves' ;
 }
 
 .container{
@@ -15,7 +24,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 nav{
     width: 55%;
 }
@@ -38,30 +46,23 @@ ul{
     text-transform: uppercase;
     color: #333333;
 } 
-
-.checkbtn{
-    display: none;
-    font-size: 30px;
-    float: right;
-    cursor: pointer;
-}
-
-#check{
-    display: none;
-}
-
-li .go{
-    text-decoration:overline, underline;
+.go{
+    text-decoration:overline underline;
 }
 
 a{
+    color: #333333;
     text-decoration: none;
 }
 
 a:hover{
     text-decoration: 2px underline #5297f7;
 }
-
+#menu{
+    float: right;
+    display: none;
+    margin-right: 0%;
+}
 .house img{
     margin-top: -30%;
     float: right;
@@ -69,7 +70,6 @@ a:hover{
     width: 770px;
     height: 829px;
 }
-
 .house p{
     float: left;
     padding-top: 1%;
@@ -171,25 +171,40 @@ img[src="images/three.png"]{
     background:  #C4C4C4;
 }
 .number{
-    margin-bottom: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin: 10%;
+
 }
 .och{
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
+    margin-bottom: 5%;
+}
+.numbers{
+    display: flex;
 }
 .no{
-    float: left;
-    justify-content: space-between;
-    margin-right: 18%;
-}
- .no .nom{
     display: flex;
-    width: 104px;
+    height: 140px;
+    font-family: 'SF Pro Display';
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 239px;
+    align-items: center;
+    color: #F2F2F2;
+    margin-right: 30%;
+}
+.no p{
+    width: 279px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
+ .nom{
+    float: right;
+    display: flex;
     height: 140px;
     font-family: 'SF Pro Display';
     font-weight: 900;
@@ -198,18 +213,15 @@ img[src="images/three.png"]{
     align-items: center;
     color: #F2F2F2;
 }
-.no p{
-    float: right;
-    width: 279px;
+.nom  p{
+    width: 350px;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
-    color: #333333;
+    color: #333333;  
 }
 .ha{
-    margin-top: 5%;
-    margin-left:10%;
-    margin-right: 10%;
+    margin: 5% 10%;
     align-items: center;
 }
 .haw{
@@ -565,92 +577,155 @@ iframe{
 }
 
 @media only screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
     .logo{
-        margin-left: 50%;
+        margin-left: 40%;
+    }
+    .navbar{
+        position: absolute;
+        display: flex;
+        font-weight: bold;
+        right: -1001%;
+        width: 120px;
+        line-height: 15px;
+        display:flex;
+        background: #F3F3F3;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all .30s ease;
+    }
+    #menu{
+    display: block;
+    cursor: pointer;
+    font-size: 35px;
+   }
+    .navbar a{
+        display: block;
+        color: #333333;
+        font-size: 10px;
+    }
+    .navbar.open{
+        right: 5%;
     }
    ul{
-    text-align: center;
-    display: block;
+    margin-left: 50%;
+    }
+   li{
+    font-size: 10px;
    }
   .pn{
     padding-bottom: 30%;
   }
   .project{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    margin-top: 10%;
   }
   .nurtown{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    line-height: 60%;
+    margin-bottom: 5%;
+  }
+  .house{
+    margin-bottom: 20%;
   }
   .house p{
     padding-top: 2%;
     width: 110px;
     height: 10px;
     font-size: 8px;
+    margin-left:31;
   }
   .house img{
-    width: 480px;
-    height: 500px;
+    width: 330px;
+    height: 400px;
+    margin-right: 5%;
+    margin-bottom: 10%;
   }
   .sign{ 
     font-size: 20px;
+    margin-left: 15%;
   }
   .arrow{
     display: none;    
   }
   .paragraph{
-    margin-top: 40%;
-    height: 950px;
+    margin-top: 70%;
+    height: 990px;
     width: 650px;
+    margin-right: 20%;
+    margin:0%;
   }
   .okm{
     font-size:40px;
+    margin-left: 10%;
+    float: none;
   }
   .lorem{
-    margin-top: 5%;
-    margin-right: 5%;
-    width: 490px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 250px;
     font-size: 14px;
+    float: none;
   }
   .lorem p{
     width: 70px;
     font-size: 10px;
     height: 5px;
+    padding: 20px 50px;
+    margin-top: 15px;
   }
   .paragraph img{
     padding-top: 20px;
-    margin-left: 90px;
+    margin-left: 35px;
     display: block;
-    width: 380px;
+    width: 330px;
     height: 200px;
     justify-content: space-between;
   }
   .number{
-    margin-top: 10%;
-    display: block;
+    margin-top: 35%;
+    
   }
   .och{
     font-size: 40px;
     text-align: center;
+    margin-left: 10%;
+    line-height: 44px;
   }
-  .no p{
+  .numbers{
+    display: block;
+  }
+  .no{
+    float: none;
+    margin-left: 5%;
+    font-size: 150px;
+    margin-right: 0%;
+    margin-bottom: 15%;
+
+  } 
+  .numbers p{
     font-size: 18px;
+    line-height: 30px;
   }
-  .no .nom{
-font-size:150px;
+  .nom{
+    float: none;
+    margin-top: 0%;
+    font-size: 150px;
   }
   .ha{
-    margin-top: 50%;
+    margin-top: 10%;
  }
 .haw{
     font-size: 40px;
     text-align: center;
 } 
 .cover{
-    margin-left: 10%;
     margin-bottom: 30%;
-    width: 380px;
+    width: 330px;
     height: 200px;
 }
 .doc{
@@ -663,34 +738,48 @@ font-size:150px;
 }
 #bc{
     float: none;
-    font-size: 10px; 
+    font-size: 10px;
+    margin-left: 20%;
+    margin-top: 0%; 
 }
  .ha img{
-    margin-left:10%;
     float: none;
     margin-bottom: 10%;
-    width: 380px;
+    width: 330px;
     height: 250px;
+    padding-left: 0%;
  }  
  .hawn{
     margin-top: 5%;
-    display: block;
  }
  .hawn p{
     font-size: 40px;
     text-align: center;
  }
  .hawn img{
-    margin-right: 30%;
-    width: 400px;
+    float: none;
+    width: 350px;
     height: 200px;
  }
  input{
     font-size: 12px;
  }
+ .otnp{
+    font-size: 10px;
+    margin-left: 25%;
+  }
+  .ott{
+    margin-left: 20%;
+  }
  #logo{
-    width:100px ;
-    height:80px ;
+    width:90px ;
+    height:60px ;
+    margin-left: 5%;
+ }
+ table{
+    margin-left: 15%;
+    font-size: 12px;
+    line-height: 18%;
  }
  td{
     font-size: 16px;
@@ -700,34 +789,44 @@ font-size:150px;
 }
 
 /* project css*/
+.container{
+    overflow: hidden;
+}
 h1{
     margin-top: 10%;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 40px;
     text-align: center;
+    margin-left: 0%;
 }
 h2{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 40px;
     text-align: center;
+    margin-left: 0%;
+}
+.project{
+    float: none;
+    margin-right: 0%
+}
+.projecta{
+    margin-top: 5%;
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 15%;
+    width: 350px;
 }
 .projects img {
-    margin-top: 5%;
-    width: 380px;
+    width: 300px;
     height: 250px;
-    margin-left: 100px;
-}
-.projects p{
-    text-align: center;
-    font-size: 20px;
-    line-height: 20px;
+    margin-left: 30%;
+    margin-right: 0%;
 }
 .pjt{
-    width: 350px;
+    width: 300px;
     font-size: 14px;
     line-height: 25px;
-    padding-left: -10px;
-    padding-right: 50px;
+    padding-right: 0%
 }
 .pjt p{
     font-size: 8px;
@@ -743,23 +842,22 @@ h2{
     display: none;
 }
 
-
 /*contact css*/
-.map{
-    margin-top: 1px;
-    }
 iframe{
-        width: 300px;
-        height: 200px;
+    width: 460px;
+    height: 170px;
     }
+.map{
+    margin-top: 0%;
+}
 .koh h1{
     margin-top: 15%;
-        font-size: 50px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 }
 .koh h2{
-    font-size: 50px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 }
 .address{
     font-size: 14px;
@@ -774,7 +872,7 @@ iframe{
     font-size: 12px;
 }
 #gmail{
-    font-size: 14px;    
+    font-size: 14px; 
 }
 #op{
     width: 100px;
@@ -786,659 +884,298 @@ iframe{
 }
 
 @media only screen and (min-width:769px) and (max-width:991px) {
-    .container{
-        overflow: hidden;
+     .logo{
+         margin-left: 40%;
+     }
+     .navbar{
+         position: absolute;
+         display: flex;
+         font-weight: bold;
+         right: -1001%;
+         width: 120px;
+         line-height: 15px;
+         display:flex;
+         background: #e6edf0;
+         flex-direction: column;
+         border-radius: 10px;
+         transition: all .30s ease;
+     }
+     #menu{
+     display: block;
+     cursor: pointer;
+     font-size: 35px;
     }
-    .logo{
-        margin-left: 50%;
+     .navbar a{
+         display: block;
+         color: #333333;
+         font-family: sans-serif;
+         font-size: 10px;
+     }
+     .navbar.open{
+         right: 2%;
+     }
+    ul{
+     margin-left: 50%;
+     }
+    li{
+     font-size: 10px;
     }
-   ul{
-    display: block;
-  }
-  .pn{
-    padding-bottom: 30%;
-  }
-  .project{
-    font-size: 50px;
-    text-align: center;
-  }
-  .nurtown{
-    font-size: 50px;
-    text-align: center;
-  }
-  .house p{
-    padding-top: 2%;
-    width: 110px;
-    height: 10px;
-    font-size: 12px;
-  }
-  .house img{
-    width: 600px;
-    height: 580px;
-  }
-  .sign{ 
-    font-size: 20px;
-  }
-  .arrow{
-    display: none;    
-  }
-  .paragraph{
-    margin-top: 20%;
-    height: 1060px;
-    width: 650px;
-  }
-  .okm{
-    font-size:50px;
-  }
-  .lorem{
-    margin-top: 5%;
-    margin-right: 5%;
-    width: 490px;
-    line-height: 40px;
-    font-size: 18px;
-  }
-  .lorem p{
-    width: 70px;
-    font-size: 12px;
-    height: 5px;
-  }
-  .paragraph img{
-    padding-top: 20px;
-    margin-left: 90px;
-    display: block;
-    width: 380px;
-    height: 200px;
-    justify-content: space-between;
-  }
-  .number{
-    margin-top: 10%;
-    display: block;
+   .pn{
+     padding-bottom: 30%;
+   }
+   .project{
+     font-size: 40px;
+     text-align: center;
+     margin-top: 10%;
+   }
+   .nurtown{
+     font-size: 40px;
+     text-align: center;
+     line-height: 60%;
+     margin-bottom: 5%;
+   }
+   .house p{
+     padding-top: 2%;
+     width: 110px;
+     height: 10px;
+     font-size: 8px;
+     margin-left:31;
+   }
+   .house img{
+     width: 450px;
+     height: 500px;
+   }
+   .sign{ 
+     font-size: 20px;
+     margin-left: 15%;
+   }
+   .arrow{
+     display: none;    
+   }
+   .paragraph{
+     margin-top: 40%;
+     height: 990px;
+     width: 650px;
+   }
+   .okm{
+     font-size:40px;
+     margin-right: 20%;
+   }
+   .lorem{
+     margin-top: 2%;
+     margin-right: 10%;
+     width: 350px;
+     font-size: 14px;
+   }
+   .lorem p{
+     width: 70px;
+     font-size: 10px;
+     height: 5px;
+     padding: 20px 50px;
+     margin-top: 15px;
+   }
+   .paragraph img{
+     padding-top: 20px;
+     margin-left: 90px;
+     display: block;
+     width: 470px;
+     height: 200px;
+     justify-content: space-between;
+   }
+   .number{
+    margin-top: 15%;
   }
   .och{
-    font-size: 50px;
-    text-align: center;
-  }
-  .no p{
-    font-size: 20px;
-  }
-  .no .nom{
-    font-size:170px;
-  }
-  .ha{
-    margin-top: 50%;
- }
-.haw{
-    font-size: 50px;
-    text-align: center;
-} 
-.cover{
-    margin-left: 10%;
-    margin-bottom: 30%;
-    width: 580px;
-    height: 300px;
-}
-.doc{
-    padding: 20px;
     font-size: 40px;
-    line-height: 40px;
-}
-.doc p{
-    font-size: 10px;
-}
-#bc{
-    float: none;
-    font-size: 10px; 
-}
- .ha img{
-    margin-left:10%;
-    float: none;
-    margin-bottom: 10%;
-    width: 580px;
-    height: 300px;
- }  
- .hawn{
-    margin-top: 5%;
+    text-align: center;
+    margin-left: 10%;
+    line-height: 44px;
+  }
+  .numbers{
     display: block;
- }
- .hawn p{
-    font-size: 50px;
-    text-align: center;
- }
- .hawn img{
-    margin-right: 30%;
-    width: 480px;
-    height: 250px;
- }
- input{
-    font-size: 14px;
- }
- #logo{
-    width:100px ;
-    height:80px ;
- }
- td{
-    font-size: 16px;
- }
-.copy p{
-    font-size: 14px;
-}
-
-/* project css*/
-h1{
-    margin-top: 10%;
-    font-size: 60px;
-    line-height: 50px;
-    text-align: center;
-}
-h2{
-    font-size: 60px;
-    line-height: 50px;
-    text-align: center;
-}
-.projects img {
-    margin-top: 5%;
-    width: 580px;
-    height: 350px;
-    margin-left: 100px;
-}
-.projects p{
-    text-align: center;
-    font-size: 24px;
-    line-height: 20px;
-}
-.pjt{
-    width: 350px;
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: -10px;
-    padding-right: 50px;
-}
-.pjt p{
-    font-size: 10px;
-    height: 10px;
-    padding: 20px 20px;
-    margin-top:15px;
-    width: 100px;
-}
-.five p{
-    font-size: 16px;
-}
-.five i{
-    display: none;
-}
-
-
-/*contact css*/
-.map{
-    margin-top: 1px;
-    }
-iframe{
-        width: 390px;
-        height: 200px;
-    }
-.koh h1{
-    font-size: 50px;
-    line-height: 40px;
-}
-.koh h2{
-    font-size: 50px;
-    line-height: 40px;
-}
-.address{
-    font-size: 14px;
-    line-height: 22px;
-    color: #333333;
-}
- .address p{
-    font-size: 14px;
-    line-height: 10px;
-}
-#number{
-    font-size: 12px;
-}
-#gmail{
-    font-size: 14px;    
-}
-#op{
-    width: 100px;
-    height: 20px;
-    font-size: 8px;
-    line-height: 12px;    
-    padding-top: 1%;
-}
-}
-
-@media only screen and (min-width:992px) and (max-width:1023px){
-    .container{
-        overflow: hidden;
-    }
-header{
-    margin-left:  10%;
-    margin-right: 20%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 70px;
-    width: 60px;
-}
-li{
-    margin-left: 8%;
-}
-ul{
-    font-size: 12px;
-} 
-.house img{
-    margin-top: -30%;
-    margin-right: 5%;
-    width: 600px;
-    height: 709px;
-}
-.house p{
-    padding-top: 1%;
-    padding-left: 2%;
-    margin-left: 35%;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    margin-top: -3%;
-    width: 120px;
-    height: 22px;
-}
-
-.pn .project{
-    margin-left:5%;
-    font-size: 50%;
-}
-.nurtown{
-    margin-left:5%;
-    font-size: 50px;
-}
-
-.sign{
-    font-size: 20px;
-}
-
-.paragraph{
-    margin-top: 35%;
+  }
+  .no{
+    float: none;
     margin-left: 5%;
-}
-
-.okm{
-    margin-right:5%;
-    font-size: 50px;
-}
-
-.lorem{
-    margin-top: 8%;
-    margin-right:-35%;
-    float: right;
-    width: 300px;
-    font-size: 12px;
-}
-.lorem p{
-    width: 100px;
-    height: 20px;
-    padding: 10px 30px;
-    }
-
-.paragraph img[src="images/one.png"]{
-    width: 210px;
-    height: 255px;    
-}
-
-img[src="images/two.png"]{
-    width: 210px;
-    height: 255px;
-}
-img[src="images/three.png"]{
-    width: 210px;
-    height: 140px;
-}
-.number{
-    margin-bottom: 20%;
-    margin-left: 5%;
-}
-.och{
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 64px;
-}
-.no{
-    margin-right: 5%;
-}
- .no .nom{
-    width: 90px;
-    height: 120px;
     font-size: 150px;
-}
-.no p{
-    font-size: 18px;
+    margin-right: 0%;
+    margin-bottom: 15%;
+
+  } 
+  .numbers p{
+    font-size: 20px;
     line-height: 30px;
-}
-.ha{
-    margin-top: 5%;
-    margin-left:5%;
-}
-.haw{
-    font-size: 50px;
-} 
-.cover{
-    margin-bottom: 3%;
-    width: 400px;
-    height: 255px;  
-}
-.doc{
-    padding: 30px;
-    width: 400px;
-    font-size: 50px;
-    line-height: 50px;
-}
-.doc p{
-    font-weight: 400;
-    font-size: 10px;
-}
-img[src='images/fan.png'] {
-    float: right;
-    margin-top: -33%;
-    width: 400px;
-    height: 255px;
-}
-img[src='images/field.png']{
-    width: 250px;
-    height: 255px;
-}
-img[src='images/estate.png']{
-    width: 250px;
-    height: 255px;
-    padding-left:7%;
-}
-img[src='images/playground.png']{
-    float: right;
-    width: 250px;
-    height: 255px;
-}
-#bc{   
-    width: 200px;
-    font-size: 10px;
-    margin-top: 5%;
-    padding-top: 2%;
-}
-.hawn{
-    margin-left: 5%;
-    padding-top: 15%;
-    font-size: 14px;
-}
-.hawn p{
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-img[src="images/human.png"]{
-    margin-bottom: 5%;
-    width: 480px;
-    height: 295px;
-    margin-right: 45%;
-}
-
-/* project css*/
-h1{
-    margin-top: 10%;
-    font-size: 60px;
-    line-height: 50px;
-    text-align: center;
-}
-h2{
-    font-size: 60px;
-    line-height: 50px;
-    text-align: center;
-}
-.projects img {
-    margin-top: 5%;
-    width: 580px;
-    height: 350px;
-    margin-left: 100px;
-}
-.projects p{
-    text-align: center;
-    font-size: 24px;
-    line-height: 20px;
-}
-.pjt{
-    width: 350px;
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: -10px;
-    padding-right: 50px;
-}
-.pjt p{
-    font-size: 10px;
-    height: 10px;
-    padding: 20px 20px;
-    margin-top:15px;
-    width: 100px;
-}
-.five p{
-    font-size: 16px;
-}
-.five i{
-    display: none;
-}
-
-
-/*contact css*/
-.map{
-    margin-top: 1px;
-    }
-iframe{
-        width: 390px;
-        height: 200px;
-    }
-.koh h1{
-    font-size: 50px;
-    line-height: 40px;
-}
-.koh h2{
-    font-size: 50px;
-    line-height: 40px;
-}
-.address{
-    font-size: 14px;
-    line-height: 22px;
-    color: #333333;
-}
- .address p{
-    font-size: 14px;
-    line-height: 10px;
-}
-#number{
-    font-size: 12px;
-}
-#gmail{
-    font-size: 14px;    
-}
-#op{
-    width: 100px;
-    height: 20px;
-    font-size: 8px;
-    line-height: 12px;    
-    padding-top: 1%;
-}
-} 
-
-@media only screen and (min-width:1024px) and (max-width:1280px){
-    header{
-        margin-left:  10%;
-        margin-right: 20%;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .logo{
-        height: 70px;
-        width: 60px;
-    }
-    li{
-        margin-left: 8%;
-    }
-    ul{
-        font-size: 12px;
-    } 
-    .house img{
-        margin-top: -30%;
-        margin-right: 5%;
-        width: 640px;
-        height: 749px;
-    }
-    
-    .house p{
-        padding-top: 1%;
-        padding-left: 2%;
-        margin-left: 35%;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
-        margin-top: -3%;
-        width: 120px;
-        height: 22px;
-    }
-    .pn{
-        font-size: 56px;        
-        line-height: 60px;
-    }
-    .project{
-        margin-left:5%;
-        font-size: 50px;    
-        line-height: 60px;
-    }
-    .nurtown{
-        margin-left:5%;
-        font-size: 50px;
-        line-height: 60px;
-    }
-    
-    .sign{
-        font-size: 20px;
-    }
-    
-    .paragraph{
-        margin-top: 35%;
-        margin-left: 5%;
-    }
-    
-    .okm{
-        margin-right:5%;
-        font-size: 50px;
-    }
-    
-    .lorem{
-        margin-top: 8%;
-        margin-right:-35%;
-        float: right;
-        width: 300px;
-        font-size: 12px;
-    }
-    .lorem p{
-        width: 100px;
-        height: 20px;
-        padding: 10px 30px;
-        }
-    
-    .paragraph img[src="images/one.png"]{
-        width: 210px;
-        height: 255px;    
-    }
-    
-    img[src="images/two.png"]{
-        width: 210px;
-        height: 255px;
-    }
-    img[src="images/three.png"]{
-        width: 210px;
-        height: 140px;
-    }
-    .number{
-        margin-bottom: 20%;
-        margin-left: 5%;
-    }
-    .och{
-        font-weight: 300;
-        font-size: 50px;
-        line-height: 64px;
-    }
-    .no{
-        margin-right: 5%;
-    }
-     .no .nom{
-        width: 90px;
-        height: 120px;
-        font-size: 150px;
-    }
-    .no p{
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .ha{
-        margin-top: 5%;
-        margin-left:5%;
-    }
-    .haw{
-        font-size: 50px;
-    } 
-    .cover{
-        margin-bottom: 3%;
-        width: 400px;
-        height: 255px;  
-    }
-    .doc{
-        padding: 30px;
-        width: 400px;
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .doc p{
-        font-weight: 400;
-        font-size: 10px;
-    }
-    img[src='images/fan.png'] {
-        float: right;
-        margin-top: -33%;
-        width: 400px;
-        height: 255px;
-    }
-    img[src='images/field.png']{
-        width: 250px;
-        height: 255px;
-    }
-    img[src='images/estate.png']{
-        width: 250px;
-        height: 255px;
-        padding-left:7%;
-    }
-    img[src='images/playground.png']{
-        float: right;
-        width: 250px;
-        height: 255px;
-    }
-    #bc{   
-        width: 200px;
-        font-size: 10px;
-        margin-top: 5%;
-        padding-top: 2%;
-    }
-    .hawn{
-        margin-left: 5%;
-        padding-top: 15%;
-        font-size: 14px;
-    }
-    .hawn p{
-        font-size: 50px;
-        margin-bottom: 10px;
-    }
-    img[src="images/human.png"]{
-        margin-bottom: 5%;
-        width: 480px;
-        height: 295px;
-        margin-right: 45%;
-    }   
+  }
+  .nom{
+    float: none;
+    margin-top: 0%;
+    font-size: 150px;
+  }
+   .ha{
+     margin-top: 30%;
+  }
+ .haw{
+     font-size: 40px;
+     text-align: center;
+ } 
+ .cover{
+     margin-left: 20%;
+     margin-bottom: 30%;
+     width: 470px;
+     height: 200px;
+ }
+ .doc{
+     padding: 20px;
+     font-size: 40px;
+     line-height: 40px;
+ }
+ .doc p{
+     font-size: 8px;
+ }
+ #bc{
+     float: none;
+     font-size: 10px;
+     margin-left: 20%;
+     margin-top: 0%; 
+ }
+  .ha img{
+     margin-left:20%;
+     float: none;
+     margin-bottom: 10%;
+     width: 470px;
+     height: 250px;
+     padding-left: 0%;
+  }  
+  .hawn{
+     margin-top: 5%;
+  }
+  .hawn p{
+     font-size: 40px;
+     text-align: center;
+  }
+  .hawn img{
+     float: none;
+     margin-left: 20%;
+     width: 400px;
+     height: 200px;
+  }
+  input{
+     font-size: 12px;
+     margin-left: 20%;
+  }
+  .otnp{
+     font-size: 10px;
+     margin-left: 25%;
+   }
+   .ott{
+     margin-left: 20%;
+   }
+  #logo{
+     width:90px ;
+     height:60px ;
+     margin-left: 5%;
+  }
+  table{
+     margin-left: 12%;
+  }
+  td{
+     font-size: 16px;
+  }
+ .copy p{
+     font-size: 10px;
+ }
+ 
+ /* project css*/
+ .container{
+     overflow: hidden;
+ }
+ h1{
+     margin-top: 10%;
+     font-size: 30px;
+     line-height: 40px;
+     text-align: center;
+     margin-left: 0%;
+ }
+ h2{
+     font-size: 30px;
+     line-height: 40px;
+     text-align: center;
+     margin-left: 0%;
+ }
+ .project{
+     float: none;
+     margin-right: 0%
+ }
+ .projecta{
+     margin-top: 5%;
+     font-size: 30px;
+     line-height: 40px;
+     margin-right: 15%;
+     width: 350px;
+ }
+ .projects img {
+     width: 300px;
+     height: 250px;
+     margin-left: 30%;
+     margin-right: 0%;
+ }
+ .pjt{
+     width: 300px;
+     font-size: 14px;
+     line-height: 25px;
+     padding-right: 0%
+ }
+ .pjt p{
+     font-size: 8px;
+     height: 10px;
+     padding: 20px 20px;
+     margin-top:15px;
+     width: 100px;
+ }
+ .five p{
+     font-size: 14px;
+ }
+ .five i{
+     display: none;
+ }
+ 
+ /*contact css*/
+ iframe{
+     width: 460px;
+     height: 170px;
+     }
+ .map{
+     margin-top: 0%;
+ }
+ .koh h1{
+     margin-top: 15%;
+     font-size: 30px;
+     line-height: 30px;
+ }
+ .koh h2{
+     font-size: 30px;
+     line-height: 30px;
+ }
+ .address{
+     font-size: 14px;
+     line-height: 22px;
+     color: #333333;
+ }
+  .address p{
+     font-size: 14px;
+     line-height: 10px;
+ }
+ #number{
+     font-size: 12px;
+ }
+ #gmail{
+     font-size: 14px; 
+ }
+ #op{
+     width: 100px;
+     height: 20px;
+     font-size: 8px;
+     line-height: 12px;    
+     padding-top: 1%;
+ }
 }

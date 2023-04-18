@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">  
     <title>Главная</title>
 </head>
 <body>
@@ -13,13 +16,14 @@
     <header>
         <img class="logo" src="images/logo.svg">  
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li class="go"><a href="home.html">ГЛАВНАЯ</a></li>
                 <li><a href="">ГАЛЕРЕЯ</a></li>
                 <li><a href="project.html">ПРОЕКТЫ</a></li>
                 <li><a href="">СЕРТИФИКАТЫ</a></li>
                 <li><a href="contact.html">КОНТАКТЫ</a></li>
             </ul>
+            <div class="bx bx-menu" id="menu"></i></div>
         </nav>
     </header>   
 
@@ -57,21 +61,19 @@
     </div>
 
     <div class="number">
-    <p class=och>Основные задачи</p><br><br>
-    <div class="no">
-        <p>Создание комфортных условий 
-            и повышение качества обслуживания клиентов</p>
-    <p class="nom">1</p>
-    </div>
+    <p class=och>Основные задачи</p>
 
-    <div class="no">
-        <p>Постоянно совершенствовать 
+    <div class="numbers">
+    <div class="no">1 <p>Создание комфортных условий 
+            и повышение качества обслуживания клиентов</p>
+    </div>
+    
+        <div class="nom">2  <p>Постоянно совершенствовать 
             качество предоставляемых услуг путем 
             обучения персонала, закупки нового оборудования
              и усиленной рекламы на рынке</p>
-    <p class="nom">2</p>
     </div>
-
+    </div>
     </div>
 
     <div class="ha">
@@ -148,5 +150,6 @@
           </div>
     </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
