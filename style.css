@@ -9,7 +9,6 @@
 }
 body{
     overflow-x: hidden;
-   font-family: 'TT hoves' ;
 }
 
 .container{
@@ -19,22 +18,25 @@ body{
 }
 
 header{
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-left: 8rem;
+    margin-right: 18rem;
+    margin-top: 2rem;
     display: flex;
+    text-align: center;
     justify-content: space-between;
 }
-nav{
-    width: 55%;
+.header-nav{
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
     height: 70px;
     width: 60px;
 }
-
-ul{
-    margin-top: 7%;
+.header-nav ul{
+    gap: 50px;
+    margin-top: 2rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -49,7 +51,6 @@ ul{
 .go{
     text-decoration:overline underline;
 }
-
 a{
     color: #333333;
     text-decoration: none;
@@ -59,132 +60,132 @@ a:hover{
     text-decoration: 2px underline #5297f7;
 }
 #menu{
-    float: right;
     display: none;
-    margin-right: 0%;
 }
-.house img{
-    margin-top: -30%;
-    float: right;
-    margin-right: 10%;
-    width: 770px;
-    height: 829px;
+/* section */
+section{
+    align-items: center;
+    display: flex;
+    margin-left: 8rem;
 }
-.house p{
-    float: left;
-    padding-top: 1%;
-    padding-left: 2%;
-    margin-left: 39%;
+.section-header{
+    margin-right: 9.2rem;
+}
+.project{
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 15px;
+    color: #BDBDBD;
+}
+.nurtown{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #333333;
+} 
+.section-icon{
+    color: #333333;
+    margin-top: 170px;  
+    list-style: none;
+}
+.section-icon i{
+    border: 2px solid #e9e5e5;
+    background: #f3f0f0d8;
+    margin-right: 50px;
+    padding: 20px;
+}
+.section-date{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+    color: #BDBDBD;
+    margin-top: 120px;
+}
+.section-image{
+    width: 100%;
+}
+.section-image img{
+    position: relative;
+    width: 90%;
+}
+.section-image p{
+    position: absolute;
+    top:121.3%;
+    left: 40%;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     background: #FFFFFF;
     color: #333333;
-    margin-top: -3%;
-    width: 180px;
-    height: 50px;
-}
-.pn{
-    font-size: 64px;        
-    line-height: 64px;
-}
-.project{
-    margin-left:10%;
-    margin-top: 23%;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
+    padding: 2rem 4rem;
 }
 
-.nurtown{
-    margin-left:10%;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
-    font-weight: 700;
-    color: #333333;
-}
-
-.arrow{
-    color: #333333;
-    padding-top: 5%;
-}
-.sign{
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    color: #BDBDBD;
-    margin-top: 5%;
-    margin-left: 10%;
-}
-
-.paragraph{
+/* main */
+.about{
     background: #FBFBFB;
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 9rem;
+    align-items: center;
+    flex-direction: row-reverse;  
+    display: flex;
+    justify-content: space-between;
 }
 
-.okm{
-    float: right ;
-    margin-right:10%;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
+.about-paragraph{
+    align-items: center;
+    padding-right: 30px;
 }
-
-.lorem{
-    margin-top: 8%;
-    margin-right:-35%;
-    float: right;
-    width: 400px;
+.about-paragraph h1{
+    width: 360px;
+    color: #8D8D8D;
+    font-weight: 100;
+}
+.about-paragraph p{
+    width: 350px;
+    color: #000000; 
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
-    color: #000000;
 }
-.lorem p{
-    background: #FFFFFF;
-    width: 200px;
-    height: 50px;
-    padding: 20px 50px;
-    margin-top:15px;
-    }
+.about-paragraph button{
+    background: #ffffff;
+    color: #000;
+    border: none;
+    float: left;
+    padding: 2rem;
+}
+.about-image{
+    display: flex;
+    gap: 35px;
+    padding-top: 50px;
+    padding-left: 80px; 
+}
+.left-image{
+    display: grid;  
+    gap: 10px;
+}
+ .right-image{
+    padding-top: 20px;
+ }
 
-img[src="images/one.png"]{
-    width: 270px;
-    height: 365px;    
+/* main goals */
+.main-goal{
+    margin: 9rem;
+    align-items: center;
 }
-
-img[src="images/two.png"]{
-    width: 270px;
-    height: 345px;
-    background: #c4c4c4;
-}
-img[src="images/three.png"]{
-    width: 270px;
-    height: 140px;
-    background:  #C4C4C4;
-}
-.number{
-    margin: 10%;
-
-}
-.och{
+.main-goal-header{
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 .numbers{
     display: flex;
 }
-.no{
+.left-number{
     display: flex;
     height: 140px;
     font-family: 'SF Pro Display';
@@ -193,16 +194,16 @@ img[src="images/three.png"]{
     line-height: 239px;
     align-items: center;
     color: #F2F2F2;
-    margin-right: 30%;
+    margin-right: 23rem;
 }
-.no p{
+.left-number p{
     width: 279px;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     color: #333333;
 }
- .nom{
+ .right-number{
     float: right;
     display: flex;
     height: 140px;
@@ -213,71 +214,62 @@ img[src="images/three.png"]{
     align-items: center;
     color: #F2F2F2;
 }
-.nom  p{
+.right-number p{
     width: 350px;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     color: #333333;  
 }
-.ha{
-    margin: 5% 10%;
+
+/* home-project */
+.home-project{
+    margin: 7rem 9rem;
     align-items: center;
 }
-.haw{
+.home-project p{
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
+    margin-bottom: 20px;
 } 
-.cover{
-    margin-bottom: 3%;
-    width: 570px;
-    height: 255px;  
-    background-image:url(images/cover.png);
-    background:#333333 transparent 1.5rem;
+.top-images{
+    display: flex;
+    gap: 89px;
+    flex-direction: row-reverse;
 }
-.doc{
-    padding: 40px;
-    width: 413px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+.recreation-center img{
+    position: relative; 
+}
+.recreation-center h2 {
+    position: absolute;
+    font-size: 60px;
+    top: 302%;
+    left: 12%;
+    width: 20%;
     color: #FFFFFF;
 }
-.doc p{
-    font-family: 'Gothic A1';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+.recreation-center p{
+    position: absolute;
+    top: 319%;
+    left: 12%;
+    color: #ffffff;
+    font-size: 16px;
+} 
+.bottom-images{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
 }
-img[src='images/fan.png'] {
-    float: right;
-    margin-top: -24%;
-    width: 570px;
-    height: 255px;
-
+.bottom-side-images{
+    gap: 60px;
+    display: flex;
 }
-img[src='images/field.png']{
-    width: 270px;
-    height: 255px;
-}
-img[src='images/estate.png']{
-    width: 470px;
-    height: 255px;
-    padding-left:5%;
-}
-img[src='images/playground.png']{
-    float: right;
-    width: 370px;
-    height: 255px;
-}
-#bc{   
+.home-project button{   
     float: right; 
     width: 230px;
-    height: 40px;
     font-family: 'Gothic A1';
     font-weight: 400;
     font-size: 12px;
@@ -286,11 +278,13 @@ img[src='images/playground.png']{
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 3%;
-    padding-top: 3%;
+    padding: 1.5rem;
     background: #333333;
+    margin-top: 1rem;
 }
-.hawn{
+
+/* connect */
+.connect{
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 5%;
@@ -300,63 +294,59 @@ img[src='images/playground.png']{
     letter-spacing: 0.04em;
     color: #8D8D8D;
 }
-.hawn p{
+.connect p{
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
     margin-bottom: 10px;
 }
-img[src="images/human.png"]{
-    float: right;
-    width: 749px;
-    height: 395px;
+.connect-contact{
+    display: flex;
+    gap: 70px;
 }
 input{
     display: block;
     border:none;
     padding-left: 20px;
 }
-input[type="nmr"]{
-    width: 391px;
-    height: 46px;
+input[type="name"]{
+    padding: 0.9rem  1rem;
+    padding-right: 14.5rem;
     background: #F3F3F3;
 }
 input[type="home"]{
-     width: 391px;
-    height: 45px;
+    padding: 0.9rem  1rem;
+    padding-right: 14.5rem;
     background: #F3F3F3;
 }
 input[type="email"]{
-    width: 391px;
-    height: 46px;
+    padding: 0.9rem  1rem;
+    padding-right: 14.5rem;
     background: #F3F3F3;
 }
-
-input[type="nht"]{
-    width: 391px;
-    height: 45px;
+input[type="product"]{
+    padding: 0.9rem  1rem;
+    padding-right: 14.5rem;
     background: #F3F3F3;
 }
-input[type="coo"]{
-    width: 391px;
-    height: 147px;
+input[type="message"]{
+    padding: 4rem  1rem;
+    padding-right: 14.5rem;
     background: #F3F3F3;
 }
-.otnp{
-    margin-top: 2%;
+.connect .low-text{
+    margin-top: 2rem;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.03em;
     color: #333333;
-    margin-left: 7%;
+    margin-left: 7rem;
 }
-button{
-    padding-left: 15px;
-    margin-top: 2%;
-    width: 220px;
-    height: 60px;
+.connect button{
+    padding: 1.3rem;
+    margin-top: 2rem;
     text-align: center;
     font-weight: 400;
     font-size: 12px;
@@ -367,61 +357,56 @@ button{
     color: #FFFFFF;
 }
 footer{
-    margin-top: 5%;
-    height: 400px;
+    margin-top: 5rem;
     background: #2C2C2C;
+    color: #fff;
+    align-items: center;
+    padding-bottom: 3rem;
+    width: 100%;
 }
-tr{
-    margin-bottom: 10px;
-    justify-content: space-between;
-}
-table{
+ footer nav{
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    display: flex;
+    margin-left: 9rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+}
+footer img{
+    width: 150px;
+}
+footer nav ul{
     color: #FFFFFF;
-    margin-left: 30%;
-    margin-top: -7%;
+    display: block;
+    list-style: none;
 }
-td{
-    width: 800px;
-    padding: 1%;
-    padding-left: 12%;
-} 
+footer nav li{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 .fa-brands{
-    padding-right: 8%;
+    padding-right: 2.5rem;
 }
-.fa-solid{
-    padding-left: 10%;
-    width: 30px;
-}
-#logo{
-    margin-top: 3%;
-    margin-left: 15%;
-    width: 145px;
-    height: 94px;
-} 
-.copy{
-    height: 0px;
-    bottom: 70px;
-    opacity: 0.1;
-    border: 1px solid #FFFFFF
+hr{
+    border: 1px solid #6e6c6c;
 }
 .copy p{
-    margin-top: 2%;
+    padding-top: 3rem;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
-    padding-bottom: 2%;
     text-align: center;
-    color: #c8c8c8;
+    color: #8b8a8a;
 }
 
-/* projectr css*/
-
-h1{
-    margin-left:10%;
-    margin-top: 5%;
+/* projects page css*/
+.projects-header{
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+.projects-header h1{
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 300;
@@ -429,8 +414,7 @@ h1{
     line-height: 64px;
     color: #BDBDBD;
 }
-h2{
-    margin-left: 10%;
+.projects-header h2{
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 700;
@@ -438,33 +422,32 @@ h2{
     line-height: 64px;
     color: #333333;
 }
-.projects {
+.projects{
     background: #FBFBFB;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-right: 8%;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    margin-right: 8rem;
+    display: flex;
+    gap: 90px;
 }
-.project img{
-    float: left;
-    width: 670px;
-    height: 435px;
+.projects img{
+    align-items: center;
 }
-.projecta{
-    float: right;
-    margin-bottom: 2%;
-    text-align: center;
-    width: 400px;
+.projects-text{
+    padding-top: 2%;
+}
+.projects-text h2{
+    width: 50%;
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
     line-height: 50px;
     color: #BDBDBD;
-    margin-right: 10%
 }
-.pjt{ 
-    margin-top: 5%;
-    width: 350px;
+.projects-text p{ 
+    margin-top: 3rem;
+    width: 80%;
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 300;
@@ -472,39 +455,48 @@ h2{
     line-height: 25px;
     color: #000000;
 }
-.pjt p{
-    float: left;
+.projects-text button{
     font-family: 'TT Hoves';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #333333;
     background: #FFFFFF;
-    height: 30px;
-    padding: 20px 50px;
-    margin-top:15%;
-    width: 130px;
+    padding:1.7rem 3rem;
+    margin-top:2.5rem;
+    border: none;    
 }
-.five{
-    margin-top: 3%;
+.projects-date{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    font-size: 30px;
+    display: flex;
+    gap: 80px;
+}
+.projects-date p{
+    color: #6e6c6c;
+    letter-spacing: 0.3em;
+    line-height: 50px;
+}
+.projects-date i{
+    border: 1px solid #6e6c6c;
     color: #333333;
-    margin-left: 10%;
-    font-size: 20px;
+    padding: 0.6rem;
+}
+#fa-arrow{
+    background-color: #e5e4e4;
 }
 
-/*contact css*/
-.map{
-float: right;
-margin-top: -17%;
+/*contact page css*/
+.contact-info{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    display: flex;
+    gap:40px;
 }
-iframe{
-    width: 800px;
-    height: 501px;
-}
-.koh h1{
+.contact-info h1{
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 300;
@@ -512,88 +504,51 @@ iframe{
     line-height: 64px;
     color: #BDBDBD;
 }
-.koh h2{
-    margin-bottom: 5%;
+.contact-info h2{
     font-family: 'TT Hoves';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #333333;
-    order: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 3rem;
 }
-.address{
-    margin-left: 10%;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    color: #333333;
+.map{
+    width: 100%;
 }
- .address p{
-    margin-bottom: 5%;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 20px;
+iframe{
+    width: 100%;
 }
-#number{
-    margin-left: 10%;
-    margin-bottom: 5%;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    color: #333333;
+.contact-address p{
+ margin-bottom: 38px;
+ font-size: 20px;
 }
-#gmail{
-    margin-left: 10%;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
-    color: #333333;
-}
-#op{
-    margin-left: 10%;
-    width: 230px;
-    height: 40px;
-    font-family: 'Gothic A1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 3%;
-    padding-top: 2%;
+.contact-address button{
     background: #333333;
+    padding: 1.5rem  4rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
 }
 
 @media only screen and (max-width:768px){
     body{
         overflow-x: hidden;
     }
-    .logo{
-        margin-left: 40%;
+    header{
+        margin-left: 10px;
+        width: 100%;
     }
     .navbar{
         position: absolute;
-        display: flex;
         font-weight: bold;
         right: -1001%;
-        width: 120px;
-        line-height: 15px;
-        display:flex;
+        padding: 10px 20px;
+        line-height: 10px;
         background: #F3F3F3;
         flex-direction: column;
-        border-radius: 10px;
+        border-radius: 7px;
         transition: all .30s ease;
     }
     #menu{
@@ -601,674 +556,509 @@ iframe{
     cursor: pointer;
     font-size: 35px;
    }
-    .navbar a{
-        display: block;
-        color: #333333;
-        font-size: 10px;
+    .header-nav a{
+    display: block;
+    font-size: 10px;
     }
-    .navbar.open{
+    .open{
         right: 5%;
     }
-   ul{
-    margin-left: 50%;
-    }
-   li{
-    font-size: 10px;
-   }
-  .pn{
-    padding-bottom: 30%;
-  }
-  .project{
-    font-size: 40px;
+  section{
+  flex-direction: column; 
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 0;
+ }
+ .section-header{
+    margin-right: 0;
     text-align: center;
-    margin-top: 10%;
+ }
+  .project{
+    font-size: 42px;
   }
   .nurtown{
-    font-size: 40px;
+    font-size: 42px;
+    line-height:10px;
+    margin-bottom: 4rem;
+  }
+  .section-icon{
+    display: none;
+  }
+  .section-date{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .section-image img{
+    width: 70%;
+    padding: 0;
+    margin-top: 3rem;
+  }
+  .section-image p{
+    display: none;
+  }
+  /* main */
+  .about{
+    flex-direction: column;
+    width: 100%;
+    margin: 4rem 1rem;
+  }
+  .about-image{
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+  
+  /* main goals */
+  .main-goal{
+      margin: 0;  
+  }
+  .main-goal-header{
+    font-size: 42px;
     text-align: center;
-    line-height: 60%;
-    margin-bottom: 5%;
-  }
-  .house{
-    margin-bottom: 20%;
-  }
-  .house p{
-    padding-top: 2%;
-    width: 110px;
-    height: 10px;
-    font-size: 8px;
-    margin-left:31;
-  }
-  .house img{
-    width: 330px;
-    height: 400px;
-    margin-right: 5%;
-    margin-bottom: 10%;
-  }
-  .sign{ 
-    font-size: 20px;
-    margin-left: 15%;
-  }
-  .arrow{
-    display: none;    
-  }
-  .paragraph{
-    margin-top: 70%;
-    height: 990px;
-    width: 650px;
-    margin-right: 20%;
-    margin:0%;
-  }
-  .okm{
-    font-size:40px;
-    margin-left: 10%;
-    float: none;
-  }
-  .lorem{
-    margin-top: 2%;
-    margin-left: 10%;
-    width: 250px;
-    font-size: 14px;
-    float: none;
-  }
-  .lorem p{
-    width: 70px;
-    font-size: 10px;
-    height: 5px;
-    padding: 20px 50px;
-    margin-top: 15px;
-  }
-  .paragraph img{
-    padding-top: 20px;
-    margin-left: 35px;
-    display: block;
-    width: 330px;
-    height: 200px;
-    justify-content: space-between;
-  }
-  .number{
-    margin-top: 35%;
-    
-  }
-  .och{
-    font-size: 40px;
-    text-align: center;
-    margin-left: 10%;
-    line-height: 44px;
   }
   .numbers{
-    display: block;
+    flex-direction: column;
+    gap: 4rem;
   }
-  .no{
-    float: none;
-    margin-left: 5%;
-    font-size: 150px;
-    margin-right: 0%;
-    margin-bottom: 15%;
-
+  .left-number{
+    height: 90px;
+    font-size: 140px;
+    margin-right: 0;
+    justify-content: center;
   } 
-  .numbers p{
+  .left-number p{
     font-size: 18px;
-    line-height: 30px;
+  } 
+  .right-number{
+    font-size: 140px;
+    justify-content: center;
+    margin-right: 0;
   }
-  .nom{
-    float: none;
-    margin-top: 0%;
-    font-size: 150px;
+  .right-number p{
+    font-size: 18px;
   }
-  .ha{
-    margin-top: 10%;
- }
-.haw{
-    font-size: 40px;
+  /* home-project */
+.home-project{
+    margin: 0;
+    padding-top: 6rem;
     text-align: center;
+    padding-bottom: 7rem;
+  }
+.home-project p{
+    font-size: 40px;
 } 
-.cover{
-    margin-bottom: 30%;
-    width: 330px;
-    height: 200px;
+.top-images{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
-.doc{
-    padding: 20px;
-    font-size: 40px;
-    line-height: 40px;
+.home-project img{
+    width: 70%;
 }
-.doc p{
-    font-size: 8px;
+.recreation-center{
+    display: none;
 }
-#bc{
+.bottom-images{
+    flex-direction: column;
+}
+.bottom-side-images{
+    display: block;
+}
+.home-project button{
     float: none;
-    font-size: 10px;
-    margin-left: 20%;
-    margin-top: 0%; 
-}
- .ha img{
-    float: none;
-    margin-bottom: 10%;
-    width: 330px;
-    height: 250px;
-    padding-left: 0%;
- }  
- .hawn{
-    margin-top: 5%;
- }
- .hawn p{
-    font-size: 40px;
-    text-align: center;
- }
- .hawn img{
-    float: none;
-    width: 350px;
-    height: 200px;
- }
- input{
-    font-size: 12px;
- }
- .otnp{
-    font-size: 10px;
-    margin-left: 25%;
-  }
-  .ott{
-    margin-left: 20%;
-  }
- #logo{
-    width:90px ;
-    height:60px ;
-    margin-left: 5%;
- }
- table{
-    margin-left: 15%;
-    font-size: 12px;
-    line-height: 18%;
- }
- td{
-    font-size: 16px;
- }
-.copy p{
-    font-size: 10px;
 }
 
-/* project css*/
-.container{
-    overflow: hidden;
-}
-h1{
-    margin-top: 10%;
-    font-size: 30px;
-    line-height: 40px;
+/* connect */
+.connect{
+    margin: 0;
     text-align: center;
-    margin-left: 0%;
 }
-h2{
-    font-size: 30px;
-    line-height: 40px;
+.connect p{
+   font-size: 40px;
+}
+.connect-contact{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.connect img{
+    width: 70%;
+}
+/* footer */
+footer nav{
+    flex-direction: column;
+    margin-left: 1rem;
+    gap: 30px;
+}
+
+/* projects page css*/
+.projects-header{
+    margin: 0;
     text-align: center;
-    margin-left: 0%;
+    padding-bottom: 3rem;
 }
-.project{
-    float: none;
-    margin-right: 0%
+.projects-header h1{
+    font-size: 42px;
 }
-.projecta{
-    margin-top: 5%;
-    font-size: 30px;
-    line-height: 40px;
-    margin-right: 15%;
-    width: 350px;
+.projects-header h2{
+    font-size: 42px;
 }
-.projects img {
-    width: 300px;
-    height: 250px;
-    margin-left: 30%;
-    margin-right: 0%;
+.projects{
+    flex-direction: column-reverse;
+    margin: 0;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    width: 80%;  
+    margin-bottom: 9rem;
 }
-.pjt{
-    width: 300px;
-    font-size: 14px;
-    line-height: 25px;
-    padding-right: 0%
+.projects-date p{
+    font-size: 20px;
+    align-items: center;
 }
-.pjt p{
-    font-size: 8px;
-    height: 10px;
-    padding: 20px 20px;
-    margin-top:15px;
-    width: 100px;
-}
-.five p{
-    font-size: 14px;
-}
-.five i{
+.projects-date i{
     display: none;
 }
 
-/*contact css*/
+/*contact page css*/
+.contact-info{
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-info h1{
+    font-size: 42px;
+}
+.contact-info h2{
+    font-size: 42px;
+}
+.contact-address{
+    font-size: 16px;
+}
+.contact-address button{
+    padding: 1.5rem;
+}
 iframe{
-    width: 460px;
-    height: 170px;
-    }
-.map{
-    margin-top: 0%;
-}
-.koh h1{
-    margin-top: 15%;
-    font-size: 30px;
-    line-height: 30px;
-}
-.koh h2{
-    font-size: 30px;
-    line-height: 30px;
-}
-.address{
-    font-size: 14px;
-    line-height: 22px;
-    color: #333333;
-}
- .address p{
-    font-size: 14px;
-    line-height: 10px;
-}
-#number{
-    font-size: 12px;
-}
-#gmail{
-    font-size: 14px; 
-}
-#op{
-    width: 100px;
-    height: 20px;
-    font-size: 8px;
-    line-height: 12px;    
-    padding-top: 1%;
+    width: 90%;
 }
 }
 
-@media only screen and (min-width:769px) and (max-width:991px) {
-     .logo{
-         margin-left: 40%;
-     }
-     .navbar{
-         position: absolute;
-         display: flex;
-         font-weight: bold;
-         right: -1001%;
-         width: 120px;
-         line-height: 15px;
-         display:flex;
-         background: #e6edf0;
-         flex-direction: column;
-         border-radius: 10px;
-         transition: all .30s ease;
-     }
-     #menu{
-     display: block;
-     cursor: pointer;
-     font-size: 35px;
+
+@media only screen and (min-width:769px) and (max-width:991px){
+    body{
+        overflow-x: hidden;
     }
-     .navbar a{
-         display: block;
-         color: #333333;
-         font-family: sans-serif;
-         font-size: 10px;
-     }
-     .navbar.open{
-         right: 2%;
-     }
-    ul{
-     margin-left: 50%;
-     }
-    li{
-     font-size: 10px;
+    header{
+        margin-left: 10px;
+        width: 100%;
     }
-   .pn{
-     padding-bottom: 30%;
+    .navbar{
+        position: absolute;
+        font-weight: bold;
+        right: -1001%;
+        padding: 10px 20px;
+        line-height: 10px;
+        background: #F3F3F3;
+        flex-direction: column;
+        border-radius: 7px;
+        transition: all .30s ease;
+    }
+    #menu{
+    display: block;
+    cursor: pointer;
+    font-size: 35px;
    }
-   .project{
-     font-size: 40px;
-     text-align: center;
-     margin-top: 10%;
-   }
-   .nurtown{
-     font-size: 40px;
-     text-align: center;
-     line-height: 60%;
-     margin-bottom: 5%;
-   }
-   .house p{
-     padding-top: 2%;
-     width: 110px;
-     height: 10px;
-     font-size: 8px;
-     margin-left:31;
-   }
-   .house img{
-     width: 450px;
-     height: 500px;
-   }
-   .sign{ 
-     font-size: 20px;
-     margin-left: 15%;
-   }
-   .arrow{
-     display: none;    
-   }
-   .paragraph{
-     margin-top: 40%;
-     height: 990px;
-     width: 650px;
-   }
-   .okm{
-     font-size:40px;
-     margin-right: 20%;
-   }
-   .lorem{
-     margin-top: 2%;
-     margin-right: 10%;
-     width: 350px;
-     font-size: 14px;
-   }
-   .lorem p{
-     width: 70px;
-     font-size: 10px;
-     height: 5px;
-     padding: 20px 50px;
-     margin-top: 15px;
-   }
-   .paragraph img{
-     padding-top: 20px;
-     margin-left: 90px;
-     display: block;
-     width: 470px;
-     height: 200px;
-     justify-content: space-between;
-   }
-   .number{
-    margin-top: 15%;
-  }
-  .och{
-    font-size: 40px;
+    .header-nav a{
+    display: block;
+    font-size: 10px;
+    }
+    .open{
+        right: 5%;
+    }
+  section{
+  flex-direction: column; 
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 0;
+ }
+ .section-header{
+    margin-right: 0;
     text-align: center;
-    margin-left: 10%;
-    line-height: 44px;
+ }
+  .project{
+    font-size: 42px;
+  }
+  .nurtown{
+    font-size: 42px;
+    line-height:10px;
+    margin-bottom: 4rem;
+  }
+  .section-icon{
+    display: none;
+  }
+  .section-date{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .section-image img{
+    width: 70%;
+    padding: 0;
+    margin-top: 3rem;
+  }
+  .section-image p{
+    display: none;
+  }
+  /* main */
+  .about{
+    flex-direction: column;
+    width: 100%;
+    margin: 4rem 1rem;
+  }
+  .about-image{
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+  
+  /* main goals */
+  .main-goal{
+      margin: 0;  
+  }
+  .main-goal-header{
+    font-size: 42px;
+    text-align: center;
   }
   .numbers{
-    display: block;
+    flex-direction: column;
+    gap: 4rem;
   }
-  .no{
-    float: none;
-    margin-left: 5%;
-    font-size: 150px;
-    margin-right: 0%;
-    margin-bottom: 15%;
-
+  .left-number{
+    height: 90px;
+    font-size: 140px;
+    margin-right: 0;
+    justify-content: center;
   } 
-  .numbers p{
-    font-size: 20px;
-    line-height: 30px;
+  .left-number p{
+    font-size: 18px;
+  } 
+  .right-number{
+    font-size: 140px;
+    justify-content: center;
+    margin-right: 0;
   }
-  .nom{
-    float: none;
-    margin-top: 0%;
-    font-size: 150px;
+  .right-number p{
+    font-size: 18px;
   }
-   .ha{
-     margin-top: 30%;
+  /* home-project */
+.home-project{
+    margin: 0;
+    padding-top: 6rem;
+    text-align: center;
+    padding-bottom: 7rem;
   }
- .haw{
-     font-size: 40px;
-     text-align: center;
- } 
- .cover{
-     margin-left: 20%;
-     margin-bottom: 30%;
-     width: 470px;
-     height: 200px;
- }
- .doc{
-     padding: 20px;
-     font-size: 40px;
-     line-height: 40px;
- }
- .doc p{
-     font-size: 8px;
- }
- #bc{
-     float: none;
-     font-size: 10px;
-     margin-left: 20%;
-     margin-top: 0%; 
- }
-  .ha img{
-     margin-left:20%;
-     float: none;
-     margin-bottom: 10%;
-     width: 470px;
-     height: 250px;
-     padding-left: 0%;
-  }  
-  .hawn{
-     margin-top: 5%;
-  }
-  .hawn p{
-     font-size: 40px;
-     text-align: center;
-  }
-  .hawn img{
-     float: none;
-     margin-left: 20%;
-     width: 400px;
-     height: 200px;
-  }
-  input{
-     font-size: 12px;
-     margin-left: 20%;
-  }
-  .otnp{
-     font-size: 10px;
-     margin-left: 25%;
-   }
-   .ott{
-     margin-left: 20%;
-   }
-  #logo{
-     width:90px ;
-     height:60px ;
-     margin-left: 5%;
-  }
-  table{
-     margin-left: 12%;
-  }
-  td{
-     font-size: 16px;
-  }
- .copy p{
-     font-size: 10px;
- }
- 
- /* project css*/
- .container{
-     overflow: hidden;
- }
- h1{
-     margin-top: 10%;
-     font-size: 30px;
-     line-height: 40px;
-     text-align: center;
-     margin-left: 0%;
- }
- h2{
-     font-size: 30px;
-     line-height: 40px;
-     text-align: center;
-     margin-left: 0%;
- }
- .project{
-     float: none;
-     margin-right: 0%
- }
- .projecta{
-     margin-top: 5%;
-     font-size: 30px;
-     line-height: 40px;
-     margin-right: 15%;
-     width: 350px;
- }
- .projects img {
-     width: 300px;
-     height: 250px;
-     margin-left: 30%;
-     margin-right: 0%;
- }
- .pjt{
-     width: 300px;
-     font-size: 14px;
-     line-height: 25px;
-     padding-right: 0%
- }
- .pjt p{
-     font-size: 8px;
-     height: 10px;
-     padding: 20px 20px;
-     margin-top:15px;
-     width: 100px;
- }
- .five p{
-     font-size: 14px;
- }
- .five i{
-     display: none;
- }
- 
- /*contact css*/
- iframe{
-     width: 460px;
-     height: 170px;
-     }
- .map{
-     margin-top: 0%;
- }
- .koh h1{
-     margin-top: 15%;
-     font-size: 30px;
-     line-height: 30px;
- }
- .koh h2{
-     font-size: 30px;
-     line-height: 30px;
- }
- .address{
-     font-size: 14px;
-     line-height: 22px;
-     color: #333333;
- }
-  .address p{
-     font-size: 14px;
-     line-height: 10px;
- }
- #number{
-     font-size: 12px;
- }
- #gmail{
-     font-size: 14px; 
- }
- #op{
-     width: 100px;
-     height: 20px;
-     font-size: 8px;
-     line-height: 12px;    
-     padding-top: 1%;
- }
+.home-project p{
+    font-size: 40px;
+} 
+.top-images{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
-@media screen and(min-width:992px)and (max-width:1023) {
+.home-project img{
+    width: 70%;
+}
+.recreation-center{
+    display: none;
+}
+.bottom-images{
+    flex-direction: column;
+}
+.bottom-side-images{
+    display: block;
+}
+.home-project button{
+    float: none;
+}
+
+/* connect */
+.connect{
+    margin: 0;
+    text-align: center;
+}
+.connect p{
+   font-size: 40px;
+}
+.connect-contact{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.connect img{
+    width: 70%;
+}
+/* footer */
+footer nav{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* projects page css*/
+.projects-header{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.projects-header h1{
+    font-size: 42px;
+}
+.projects-header h2{
+    font-size: 42px;
+}
+.projects{
+    flex-direction: column-reverse;
+    margin: 0;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    width: 80%;  
+    margin-bottom: 9rem;
+}
+.projects-date p{
+    font-size: 20px;
+    align-items: center;
+}
+.projects-date i{
+    display: none;
+}
+
+/*contact page css*/
+.contact-info{
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-info h1{
+    font-size: 42px;
+}
+.contact-info h2{
+    font-size: 42px;
+}
+.contact-address{
+    font-size: 16px;
+}
+.contact-address button{
+    padding: 1.5rem;
+}
+iframe{
+    width: 90%;
+}
+}
+
+@media only screen and (min-width:992px) and (max-width:1023px){
+    body{
+        overflow-x: hidden;
+    }
     header{
-        margin-left: 10%;
-        margin-right: 20%;
-        display: flex;
-        justify-content: space-between;
+        margin-right: 6rem;
+        margin-left: 4.5rem;
     }
-    nav{
-        width: 65%;
+    .header-nav ul{
+        gap:  30px;
+        font-size: 10px;
     }
-    
-    .house img{
-        float: right;
-        width: 600px;
-        height: 729px;
+    section{
+        margin-left: 4rem;
+        margin-top: 2rem;
     }
-    .pn{
-        font-size: 64px;        
-        line-height: 64px;
+    .section-header{
+        padding-top: 4rem;
+        margin-right: 8rem;
     }
     .project{
         font-size: 50px;
-        line-height: 40px;
+        margin-bottom: 0;
     }
-    
     .nurtown{
         font-size: 50px;
-        line-height: 54px;
-    }        
-    .okm{
-        font-size: 40px;
-        line-height: 64px;
+    }
+    .section-icon{
+        margin-top: 80px;
+    }
+    .section-icon i{
+        margin-right: 40px;
+    }
+    .section-date{
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    /* main */
+    .about{
+       margin:3.2rem; 
+       gap: 5rem;
+    }
+    .about-paragraph{
+        padding-right: 0;
+    }
+    .about-paragraph h1{
+        font-size: 30px;
     } 
-    img[src="images/one.png"]{
-        width: 270px;
-        height: 245px;    
+    .about-image{
+        width: 52%;
+        gap: 5px;
+    }  
+    .left-image{
+        width: 57%;
     }
-    img[src="images/two.png"]{
-        width: 270px;
-        height: 245px;
+    .right-image{
+       width: 40%;
     }
-    img[src="images/three.png"]{
-        width: 270px;
-        height: 100px;
-    }
-    .och{
-        font-size: 40px;
-        line-height: 54px;
-    }
-    .haw{
-        font-size: 40px;
-        line-height: 54px;
-    } 
-    .cover{
-        width: 470px;
-        height: 205px;  
-    }
-    .doc{
-        font-size: 40px;
-        line-height: 54p
-    }
-    img[src='images/fan.png'] {
-        float: right;
-        margin-top: -24%;
-        width: 470px;
-        height: 205px;
-    
-    }
-    img[src='images/field.png']{
-        width: 270px;
-        height: 205px;
-    }
-    img[src='images/estate.png']{
-        width: 470px;
-        height: 255px;
-        padding-left:5%;
-    }
-    img[src='images/playground.png']{
-        float: right;
-        width: 370px;
-        height: 255px;
-    }
-    .hawn p{
-        font-size: 40px;
-        line-height: 54px;
-    }
-    img[src="images/human.png"]{
-        float: right;
-        width: 649px;
-        height: 395px;
-    }
-}
 
+    /* main goals */
+    .main-goal{
+        margin: 4.5rem;
+    }
+    .main-goal-header{
+        font-size: 50px;
+    }
+    .left-number{
+    margin-right: 2rem;
+    }
+    
+    /* home project */
+   .home-project{
+    margin: 3rem;
+   }
+   .top-images{
+    gap: 5px;
+    width: 100%;
+   } 
+   .top-images img{
+    width: 100%;
+   }
+   .bottom-images{
+    gap: 10px;
+    width: 100%
+   }
+   .bottom-images img{
+    width: 50%
+   }
+   .bottom-side-images{
+    gap:10px;
+   }
+   .home-project button{
+    width: 180px;
+   }
+   .connect{
+    padding-top: 9rem;
+    margin: 3rem;
+    width: 100%;
+   }
+   .connect p{
+    font-size: 40px;
+   }
+   input{
+    width: 50%;
+   }
+   .connect img{
+    width: 50%;
+   }
+   footer nav{
+    margin: 3rem;
+    font-size: 14px;
+   }
+}
