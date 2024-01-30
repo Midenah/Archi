@@ -309,36 +309,19 @@ input{
     display: block;
     border:none;
     padding-left: 20px;
-}
-input[type="name"]{
+    background: #F3F3F3;
     padding: 0.9rem  1rem;
     padding-right: 14.5rem;
-    background: #F3F3F3;
 }
-input[type="home"]{
-    padding: 0.9rem  1rem;
-    padding-right: 14.5rem;
-    background: #F3F3F3;
-}
-input[type="email"]{
-    padding: 0.9rem  1rem;
-    padding-right: 14.5rem;
-    background: #F3F3F3;
-}
-input[type="product"]{
-    padding: 0.9rem  1rem;
-    padding-right: 14.5rem;
-    background: #F3F3F3;
-}
+
 input[type="message"]{
     padding: 4rem  1rem;
     padding-right: 14.5rem;
-    background: #F3F3F3;
 }
 .connect .low-text{
     margin-top: 2rem;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
     letter-spacing: 0.03em;
     color: #333333;
@@ -675,10 +658,22 @@ iframe{
     flex-direction: column-reverse;
     align-items: center;
 }
+input{
+    padding-right: 10rem;
+}
+input[type="message"]{
+    padding-right: 10rem;
+}
 .connect img{
     width: 70%;
 }
+.connect .low-text{
+    margin-left: 0;
+}
 /* footer */
+footer{
+    width: 100%;
+}
 footer nav{
     flex-direction: column;
     margin-left: 1rem;
@@ -738,7 +733,6 @@ iframe{
 
 
 @media only screen and (min-width:769px) and (max-width:991px){
-    
     header{
         margin-left: 10px;
         width: 100%;
@@ -879,6 +873,7 @@ iframe{
     flex-direction: column-reverse;
     align-items: center;
 }
+
 .connect img{
     width: 70%;
 }
