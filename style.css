@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
@@ -34,7 +35,7 @@ header{
     height: 70px;
     width: 60px;
 }
-.header-nav ul{
+.navbar{
     gap: 50px;
     margin-top: 2rem;
     list-style: none;
@@ -55,7 +56,6 @@ a{
     color: #333333;
     text-decoration: none;
 }
-
 a:hover{
     text-decoration: 2px underline #5297f7;
 }
@@ -533,36 +533,32 @@ iframe{
 }
 
 @media only screen and (max-width:768px){
-    body{
-        overflow-x: hidden;
-    }
     header{
         margin-left: 10px;
         width: 100%;
     }
     .navbar{
-        position: absolute;
+        display: none;
+        font-size: 10px;
         font-weight: bold;
-        right: -1001%;
-        padding: 10px 20px;
-        line-height: 10px;
+        padding: 10px 15px;
+        line-height: 5px;
         background: #F3F3F3;
         flex-direction: column;
         border-radius: 7px;
         transition: all .30s ease;
     }
     #menu{
-    display: block;
+    display: flex;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
    }
-    .header-nav a{
-    display: block;
-    font-size: 10px;
-    }
-    .open{
-        right: 5%;
-    }
+  .show{
+     display: flex;
+    } 
   section{
   flex-direction: column; 
   text-align: center;
@@ -742,17 +738,15 @@ iframe{
 
 
 @media only screen and (min-width:769px) and (max-width:991px){
-    body{
-        overflow-x: hidden;
-    }
+    
     header{
         margin-left: 10px;
         width: 100%;
     }
     .navbar{
-        position: absolute;
+        display: none; 
+        font-size: 10px;
         font-weight: bold;
-        right: -1001%;
         padding: 10px 20px;
         line-height: 10px;
         background: #F3F3F3;
@@ -765,12 +759,9 @@ iframe{
     cursor: pointer;
     font-size: 35px;
    }
-    .header-nav a{
-    display: block;
-    font-size: 10px;
-    }
-    .open{
-        right: 5%;
+    
+    .show{
+        display: flex;
     }
   section{
   flex-direction: column; 
@@ -950,9 +941,7 @@ iframe{
 }
 
 @media only screen and (min-width:992px) and (max-width:1023px){
-    body{
-        overflow-x: hidden;
-    }
+  
     header{
         margin-right: 6rem;
         margin-left: 4.5rem;
