@@ -578,7 +578,7 @@ iframe{
   /* main */
   .about{
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     margin: 4rem 1rem;
   }
   .about-image{
@@ -672,7 +672,7 @@ input[type="message"]{
 }
 /* footer */
 footer{
-    width: 100%;
+    width: 98%;
 }
 footer nav{
     flex-direction: column;
